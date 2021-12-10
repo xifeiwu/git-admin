@@ -43,7 +43,8 @@ async function run(user, fingerprint, command, repo) {
     var child = spawn(command, [repoPath], {detached:true});
     logger(`${command} ${repoPath}`);
     child.on('exit', function(rc) {
-      process.exit(rc);
+      logger('child process is existed;');
+      // process.exit(rc);
     });
 
     const getStreamLogger = (tag) => {
