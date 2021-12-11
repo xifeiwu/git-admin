@@ -139,7 +139,10 @@ module.exports = {
           }
         }),
       },
-      'node-server': props(),
+      'webpack-demo': props(),
+      'node-server': props({
+        desc: '一个简单的node服务，不依赖三方库，将会被koa-server代替'
+      }),
       'assist-server-paas': props({
         desc: 'a ssr project with both server and fe'
       }),
