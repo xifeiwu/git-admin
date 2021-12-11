@@ -206,6 +206,9 @@ module.exports = {
       'content-scanner': props(),
       busybox: props(),
       assist: props(),
+      ydd: props({
+        desc: '有道词典chrome插件，可用',
+      }),
       'use-case': props(),
     },
     java: {
