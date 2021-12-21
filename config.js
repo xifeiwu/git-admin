@@ -107,6 +107,9 @@ module.exports = {
         ssh2: props({
           desc: 'show the logic of ssh2'
         }),
+        'tencentcloud-sdk-nodejs': props({
+          desc: '腾讯云sdk接口，ref: https://github.com/tencentcloud/tencentcloud-sdk-nodejs',
+        }),
       },
       project: {
         'spa-server': props({
@@ -292,7 +295,10 @@ module.exports = {
        }),
        desktop: props({
         desc: '台式机10.46.0.73上nginx的配置'
-       })
+       }),
+       elif: props({
+        desc: '服务器124.156.155.64上nginx的配置'
+       }),
       },
     },
     finup: {
