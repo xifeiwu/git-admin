@@ -110,6 +110,14 @@ module.exports = {
         'tencentcloud-sdk-nodejs': props({
           desc: '腾讯云sdk接口，ref: https://github.com/tencentcloud/tencentcloud-sdk-nodejs',
         }),
+        'koa-md-parser': props(),
+        'nirvana-logger': props(),
+        formidable: props(),
+        'dom-align': props(),
+        'impress.js': props(),
+        'aws4': props(),
+        'markdown-it': props(),
+        'koa-static-cache': props(),
       },
       project: {
         'spa-server': props({
@@ -152,16 +160,6 @@ module.exports = {
       assets: props({
         desc: 'assets used for both node, vue and fe'
       }),
-      module: {
-        'koa-md-parser': props(),
-        'nirvana-logger': props(),
-        formidable: props(),
-        'dom-align': props(),
-        'impress.js': props(),
-        'aws4': props(),
-        'markdown-it': props(),
-        'koa-static-cache': props(),
-      },
       vue: {
         'vue_abc': props({
           desc: '学习vue'
