@@ -129,9 +129,6 @@ module.exports = {
         'assist-server': props({
           desc: 'node server to assist some paas logic, such as cas login'
         }),
-        piaofang: props({
-          desc: '猫眼专业版'
-        }),
       },
       webpack: {
         start: props({
@@ -298,6 +295,17 @@ module.exports = {
         desc: '服务器124.156.155.64上nginx的配置'
        }),
       },
+    },
+    meituan: {
+      piaofang: props({
+        desc: '猫眼专业版'
+      }),
+      'fe-blog': props({
+        desc: '一个使用express, jade为后端架构，以markdown为文章语法的博客系统',
+      }),
+      'movie-template': props({
+        desc: '一个java后端框架'
+      }),
     },
     finup: {
       benew: props(),
