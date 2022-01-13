@@ -1,5 +1,5 @@
 const path = require('path');
-const commonUtils = new (require('./lib/utils-common.js'));
+const commonUtils = new(require('./lib/utils-common.js'));
 
 // {allowedGroup, props}
 function props(config) {
@@ -285,15 +285,15 @@ module.exports = {
         desc: '定制的代理服务，用于辅助完美邮箱前端vue项目开发，使用ts开发'
       }),
       nginx: {
-       d1: props({
-         desc: 'd1服务器10.12.6.10上nginx的配置'
-       }),
-       desktop: props({
-        desc: '台式机10.46.0.73上nginx的配置'
-       }),
-       elif: props({
-        desc: '服务器124.156.155.64上nginx的配置'
-       }),
+        d1: props({
+          desc: 'd1服务器10.12.6.10上nginx的配置'
+        }),
+        desktop: props({
+          desc: '台式机10.46.0.73上nginx的配置'
+        }),
+        elif: props({
+          desc: '服务器124.156.155.64上nginx的配置'
+        }),
       },
     },
     meituan: {
