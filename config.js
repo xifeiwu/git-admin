@@ -129,6 +129,12 @@ module.exports = {
         'assist-server': props({
           desc: 'node server to assist some paas logic, such as cas login'
         }),
+        'fe-paas': props({
+          desc: '量化空间paas前端项目'
+        }),
+        'assist-server-paas': props({
+          desc: 'paas前端的后台管理平台，包括帮助文档管理后台的前端页面几后端接口实现等'
+        }),
       },
       webpack: {
         start: props({
@@ -151,18 +157,12 @@ module.exports = {
       'node-server': props({
         desc: '一个简单的node服务，不依赖三方库，将会被koa-server代替'
       }),
-      'assist-server-paas': props({
-        desc: 'a ssr project with both server and fe'
-      }),
       assets: props({
         desc: 'assets used for both node, vue and fe'
       }),
       vue: {
         'vue_abc': props({
           desc: '学习vue'
-        }),
-        'fe-paas': props({
-          desc: '量化空间paas前端项目'
         }),
         'robot': props({
           desc: '结构比较成熟，使用typescript，基于nuxt的一个项目，使用到了pont（好用但不好控）'

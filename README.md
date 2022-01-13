@@ -3,6 +3,16 @@
 1. 基于http，ssh协议的git服务
 2. 权限过滤，用户账号认证
 
+### 关于post-receive
+
+如果仓库更新后，自动更新该项目，需要再git-admin.git/hooks目录下添加post-receive文件，内容为：
+
+```
+unset GIT_DIR
+cd /home/git/git-admin
+git pull origin master
+```
+
 ### 关于文件config.js
 
 config.js中配置git仓库的路径，及访问权限
