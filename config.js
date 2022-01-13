@@ -123,7 +123,7 @@ module.exports = {
         'spa-server': props({
           desc: '为spa项目提供静态服务、转发服务，并尽量使用和webpack.config.js中devServer相同的配置'
         }),
-        'paas-assist': props({
+        'eggjs-demo': props({
           desc: '高乐天创建的一个eggjs项目，可以参考typescript及模块分割部分，可以删除'
         }),
         'assist-server': props({
