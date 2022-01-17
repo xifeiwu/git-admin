@@ -120,6 +120,9 @@ module.exports = {
         'koa-static-cache': props(),
       },
       project: {
+        'node-server': props({
+          desc: '一个简单的node服务，不依赖三方库，将会被koa-server代替'
+        }),
         'spa-server': props({
           desc: '为spa项目提供静态服务、转发服务，并尽量使用和webpack.config.js中devServer相同的配置'
         }),
@@ -148,9 +151,6 @@ module.exports = {
         }),
       },
       'webpack-demo': props(),
-      'node-server': props({
-        desc: '一个简单的node服务，不依赖三方库，将会被koa-server代替'
-      }),
       'assist-server-paas': props({
         desc: 'a ssr project with both server and fe'
       }),
