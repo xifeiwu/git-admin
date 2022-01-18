@@ -271,6 +271,23 @@ module.exports = {
     work: {
       workcode: props(),
     },
+    meituan: {
+      piaofang: props({
+        desc: '猫眼专业版'
+      }),
+      'fe-blog': props({
+        desc: '一个使用express, jade为后端架构，以markdown为文章语法的博客系统',
+      }),
+      'movie-template': props({
+        desc: '一个java后端框架'
+      }),
+    },
+    finup: {
+      benew: props(),
+      'quant-api': props(),
+      'spring-boot-demo': props(),
+      'benew-quant': props(),
+    },
     pwrd: {
       docs: props({
         desc: 'api接口相关：接口描述；接口数据moack，接口调用等；mail项目总结文档，代码片段等'
@@ -296,22 +313,10 @@ module.exports = {
         }),
       },
     },
-    meituan: {
-      piaofang: props({
-        desc: '猫眼专业版'
-      }),
-      'fe-blog': props({
-        desc: '一个使用express, jade为后端架构，以markdown为文章语法的博客系统',
-      }),
-      'movie-template': props({
-        desc: '一个java后端框架'
-      }),
-    },
-    finup: {
-      benew: props(),
-      'quant-api': props(),
-      'spring-boot-demo': props(),
-      'benew-quant': props(),
+    conviva: {
+      'react-umi': props({
+        desc: '基于umi脚手架的项目，作为react入门'
+      })
     }
   },
   get repoList() {
