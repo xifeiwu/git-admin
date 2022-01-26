@@ -93,6 +93,11 @@ module.exports = {
           desc: '学习ts语法'
         }),
       },
+      module: {
+        libs: props({
+          desc: '使用typescript实现的公共逻辑仓库'
+        }),
+      },
       vendor: {
         'cnpmjs.org': props(),
         'angry-bird': props(),
@@ -186,6 +191,9 @@ module.exports = {
         }),
         'react-app': props({
           desc: '通过create-react-app脚手架创建的一个react app demo'
+        }),
+        'components': props({
+          desc: 'react自定义组件'
         }),
       }
     },
