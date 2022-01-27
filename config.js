@@ -330,6 +330,9 @@ module.exports = {
       },
     },
     conviva: {
+      'daas-frontend': props({
+        desc: 'daas前端'
+      }),
     }
   },
   get repoList() {
