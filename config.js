@@ -201,21 +201,21 @@ module.exports = {
       website: props({
         desc: '个人主页node服务端，可以通过config文件灵活配置'
       }),
-      calendar: props({
-        desc: 'firefox os上的日历项目'
-      }),
-      sage: props({
-        desc: '哲对话项目，需要后端接口，可以使用assist-server提供的接口'
-      }),
+      project: {
+        calendar: props({
+          desc: 'firefox os上的日历项目'
+        }),
+        sage: props({
+          desc: '哲对话项目，需要后端接口，可以使用assist-server提供的接口'
+        }),
+        'generate-iconfont': props({
+          desc: '生成字体'
+        }),
+      },
       'zhangxueli.site': props(),
       'show-case': props({
         desc: '浏览器功能展示'
       }),
-      art: {
-        'generate-iconfont': props({
-          desc: '生成字体'
-        })
-      }
     },
     chrome: {
       'show-qrcode': props(),
