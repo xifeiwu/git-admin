@@ -81,7 +81,7 @@ module.exports = {
     node: {
       start: {
         fe: props({
-          desc: '前端代码总结'
+          desc: '前端代码总结，TODO: delete a'
         }),
         summary: props({
           desc: 'node代码总结'
@@ -201,7 +201,9 @@ module.exports = {
       website: props({
         desc: '个人主页node服务端，可以通过config文件灵活配置'
       }),
-      calendar: props(),
+      calendar: props({
+        desc: 'firefox os上的日历项目'
+      }),
       sage: props({
         desc: '哲对话项目，需要后端接口，可以使用assist-server提供的接口'
       }),
