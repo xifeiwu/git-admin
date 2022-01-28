@@ -161,7 +161,6 @@ module.exports = {
           }
         }),
       },
-      'webpack-demo': props(),
       assets: props({
         desc: 'assets used for both node, vue and fe'
       }),
