@@ -191,7 +191,9 @@ module.exports = {
         'react-app': props({
           desc: '通过create-react-app脚手架创建的一个react app demo'
         }),
-        'react-components-primer': props({desc: '一个用来展示react-component组件的框架'}),
+        'react-components-primer': props({
+          desc: '一个用来展示react-component组件的框架'
+        }),
         'components': props({
           desc: 'react自定义组件'
         }),
