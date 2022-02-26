@@ -213,8 +213,8 @@ module.exports = {
         'generate-iconfont': props({
           desc: '生成字体'
         }),
+        'zhangxueli.site': props(),
       },
-      'zhangxueli.site': props(),
       'show-case': props({
         desc: '浏览器功能展示'
       }),
