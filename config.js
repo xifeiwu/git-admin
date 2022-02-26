@@ -80,9 +80,6 @@ module.exports = {
     },
     node: {
       start: {
-        fe: props({
-          desc: '前端代码总结，纯静态实现。通过vue(react)架构实现的代码总结将会放到vue(react)/start中。node/start/summary的前端部分会逐步迁移到该项目'
-        }),
         summary: props({
           desc: 'node代码总结，内容将迁移到node/start/fe, node/start/ts中。TODO: delete'
         }),
@@ -200,6 +197,14 @@ module.exports = {
       }
     },
     fe: {
+      start: {
+        summary: props({
+          desc: '前端代码总结，纯静态实现。通过vue(react)架构实现的代码总结将会放到vue(react)/start中。node/start/summary的前端部分会逐步迁移到该项目'
+        }),
+        'show-case': props({
+          desc: '一些可以展示的页面'
+        }),
+      },
       website: props({
         desc: '个人主页node服务端，可以通过config文件灵活配置'
       }),
@@ -215,9 +220,6 @@ module.exports = {
         }),
         'zhangxueli.site': props(),
       },
-      'show-case': props({
-        desc: '浏览器功能展示'
-      }),
     },
     chrome: {
       'show-qrcode': props(),
