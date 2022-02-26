@@ -81,16 +81,16 @@ module.exports = {
     node: {
       start: {
         fe: props({
-          desc: '前端代码总结，TODO: delete a'
+          desc: '前端代码总结，纯静态实现。通过vue(react)架构实现的代码总结将会放到vue(react)/start中。node/start/summary的前端部分会逐步迁移到该项目'
         }),
         summary: props({
-          desc: 'node代码总结'
+          desc: 'node代码总结，内容将迁移到node/start/fe, node/start/ts中。TODO: delete'
         }),
         modules: props({
           desc: '展示常用node modules使用方式'
         }),
         ts: props({
-          desc: '学习ts语法'
+          desc: 'ts语法，node代码总结。node/start/summary的node部分会逐步迁移到该项目'
         }),
       },
       module: {
