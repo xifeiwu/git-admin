@@ -192,7 +192,7 @@ module.exports = {
           desc: '用来学习antd'
         }),
         'components': props({
-          desc: 'react自定义组件'
+          desc: 'react通用组件'
         }),
       }
     },
@@ -338,6 +338,9 @@ module.exports = {
     conviva: {
       'daas-frontend': props({
         desc: 'daas前端'
+      }),
+      'components': props({
+        desc: 'conviva react通用组件'
       }),
     }
   },
