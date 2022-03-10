@@ -90,11 +90,6 @@ module.exports = {
           desc: 'ts语法，node代码总结。node/start/summary的node部分会逐步迁移到该项目'
         }),
       },
-      module: {
-        libs: props({
-          desc: '使用typescript实现的公共逻辑仓库'
-        }),
-      },
       vendor: {
         'cnpmjs.org': props(),
         'angry-bird': props(),
@@ -122,6 +117,9 @@ module.exports = {
         'koa-static-cache': props(),
       },
       project: {
+        libs: props({
+          desc: '使用typescript实现的公共逻辑仓库'
+        }),
         'node-server': props({
           desc: '一个简单的node服务，不依赖三方库，将会被koa-server代替'
         }),
