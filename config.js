@@ -148,6 +148,7 @@ module.exports = {
         start: props({
           desc: 'webpack基础展示，基于项目：https://github.com/ruanyf/webpack-demos'
         }),
+        'react-tsx-less': props({desc: '支持tsx, less, react的webpack最小化配置'}),
       },
       busybox: {
         busybox: props({
