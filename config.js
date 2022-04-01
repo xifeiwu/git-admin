@@ -91,6 +91,9 @@ module.exports = {
         }),
       },
       vendor: {
+        'node-http-proxy': props({
+          desc: 'http(s)请求转发，加入了一些逻辑，方便请求转发的配置'
+        }),
         'cnpmjs.org': props(),
         'angry-bird': props(),
         'shadowsocks-lite': props(),
