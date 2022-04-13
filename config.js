@@ -221,9 +221,11 @@ module.exports = {
       'antd-prime': props({
         desc: '用来学习antd'
       }),
-      'components': props({
-        desc: 'react通用组件'
-      }),
+      modules: {
+        components: props({
+          desc: 'react通用组件，自用'
+        }),
+      }
     },
     chrome: {
       'show-qrcode': props(),
