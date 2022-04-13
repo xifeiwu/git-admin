@@ -24,24 +24,27 @@ node								// 一级目录，以node为例
 │   ├── summary 					// 常用逻辑总结
 │   └── ...							// 等
 ├── vendor							// 值得长期跟踪的优秀的三方代码
-│   ├── ws
-│   ├── git-server-by-http
-│   ├── snabbdom
-│   ├── vue
-│   └── ...
+│   ├── socksv5						// socksv5的node实现
+│   ├── formidable					// 实现解析http post请求
+│   ├── snabbdom					// vue做tree diff的代码逻辑
+│   └── ...							// 等
+├── modules							// 跨项目的公用逻辑
+│   ├── libs						// 公用代码
+│   └── ...							// 等
 ├── projects						// 自己开发的完成特定功能的项目
+│   ├── finsihed					// 已经稳定的项目
+│   │   ├── git-admin				// git仓库管理程序
+│   │   └── ...						// 等
 │   ├── spa-server					// spa项目后端服务
 │   └── ...							// 等
 ├── webpack							// 如果vendor项目比较多，可以将相关项目归类的一个文件夹（如，展示webpack功能的相关项目）
 │   ├── ruanyf						// 一个展示基本的webpack使用方式的项目
 │   └── ...							// 等
-├── toolbox							// 实现一定功能的，不依赖任何三方代码
-│   ├── git-admin					// git服务管理工具
-│   └── ...							// 等
 └── ...								// 其它自定义文件夹
 
-vendor
-
+**modules**
+可以跨项目公用的逻辑
+**vendor**
 存放三方代码，如果代码比较小，可以直接放到仓库，如果比较大，则把改动的部分放到仓库。
 
 ### 关于acme
