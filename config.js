@@ -343,9 +343,11 @@ module.exports = {
       'daas-frontend': props({
         desc: 'daas前端'
       }),
-      'components': props({
-        desc: 'conviva react通用组件'
-      }),
+      react: {
+        'components': props({
+          desc: 'conviva react通用组件'
+        }),
+      }
     }
   },
   get repoList() {
