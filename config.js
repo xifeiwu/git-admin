@@ -59,24 +59,23 @@ module.exports = {
         })
       },
     },
-    linux: {
-      summary: props({
-        desc: ''
+    huffie: {
+      huffie: props(),
+      blog: props({
+        desc: '基于jekyll的blog，将会被blogs代替'
       }),
-      'ubuntu-rebuild': props({
-        desc: 'iscas定制cdos的源码'
-      }),
-      ubuntu: {
-        summary: props({
-          desc: '基于linux发行版（linuxmint），重新定制iso镜像',
+      /** 博客相关 */
+      blogs: {
+        content: props({
+          desc: '博客内容，使用markdown语法写的，分门别类的技术总结'
         }),
-        'cdos-update': props({
-          desc: '一个非常精简的纯shell脚本实现的linuxmin更新相关包的实现逻辑。主要价值在于了解deb打包方式。'
+        backend: props({
+          desc: '博客服务，markdown解析归类，提供访问服务。将从容和服务拆开，是为了减少内容部分的体积。'
         }),
-        'cdosupdate': props({
-          desc: '基于linuxmint的mintupdate包，修改了部分逻辑。主要价值在了解linuxmint基于pygtk图形化界面的实现风格。'
-        }),
-      }
+      },
+      blog_site: props(),
+      company: props(),
+      'xifeiwu.github.io': props()
     },
     node: {
       start: {
@@ -236,6 +235,25 @@ module.exports = {
       }),
       'use-case': props(),
     },
+    linux: {
+      summary: props({
+        desc: ''
+      }),
+      'ubuntu-rebuild': props({
+        desc: 'iscas定制cdos的源码'
+      }),
+      ubuntu: {
+        summary: props({
+          desc: '基于linux发行版（linuxmint），重新定制iso镜像',
+        }),
+        'cdos-update': props({
+          desc: '一个非常精简的纯shell脚本实现的linuxmin更新相关包的实现逻辑。主要价值在于了解deb打包方式。'
+        }),
+        'cdosupdate': props({
+          desc: '基于linuxmint的mintupdate包，修改了部分逻辑。主要价值在了解linuxmint基于pygtk图形化界面的实现风格。'
+        }),
+      }
+    },
     java: {
       summary: props(),
       'com-server': props(),
@@ -276,24 +294,6 @@ module.exports = {
     },
     php: {
       'exam-parser': props()
-    },
-    huffie: {
-      huffie: props(),
-      blog: props({
-        desc: '基于jekyll的blog，将会被blogs代替'
-      }),
-      /** 博客相关 */
-      blogs: {
-        content: props({
-          desc: '博客内容，使用markdown语法写的，分门别类的技术总结'
-        }),
-        backend: props({
-          desc: '博客服务，markdown解析归类，提供访问服务。将从容和服务拆开，是为了减少内容部分的体积。'
-        }),
-      },
-      blog_site: props(),
-      company: props(),
-      'xifeiwu.github.io': props()
     },
     work: {
       workcode: props(),
