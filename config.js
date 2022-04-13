@@ -185,20 +185,6 @@ module.exports = {
           custom: props()
         }
       },
-      react: {
-        'react-umi': props({
-          desc: '基于umi脚手架的项目，作为react入门'
-        }),
-        'react-app': props({
-          desc: '通过create-react-app脚手架创建的一个react app demo'
-        }),
-        'antd-prime': props({
-          desc: '用来学习antd'
-        }),
-        'components': props({
-          desc: 'react通用组件'
-        }),
-      }
     },
     fe: {
       start: {
@@ -224,6 +210,20 @@ module.exports = {
         }),
         'zhangxueli.site': props(),
       },
+    },
+    react: {
+      'react-umi': props({
+        desc: '基于umi脚手架的项目，作为react入门'
+      }),
+      'react-app': props({
+        desc: '通过create-react-app脚手架创建的一个react app demo'
+      }),
+      'antd-prime': props({
+        desc: '用来学习antd'
+      }),
+      'components': props({
+        desc: 'react通用组件'
+      }),
     },
     chrome: {
       'show-qrcode': props(),
