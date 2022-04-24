@@ -347,7 +347,12 @@ module.exports = {
         'components': props({
           desc: 'conviva react通用组件'
         }),
-      }
+      },
+      fe: {
+        libs: props({
+          desc: 'conviva fe通用逻辑'
+        }),
+      },
     }
   },
   get repoList() {
