@@ -195,10 +195,15 @@ module.exports = {
           desc: '一些可以展示的页面'
         }),
       },
-      website: props({
-        desc: '个人主页node服务端，可以通过config文件灵活配置'
-      }),
+      modules: {
+        lib: props({
+          desc: 'node,fe公用逻辑，及只能在前端环境运行的逻辑'
+        }),
+      },
       project: {
+        website: props({
+          desc: '个人主页node服务端，可以通过config文件灵活配置'
+        }),
         calendar: props({
           desc: 'firefox os上的日历项目'
         }),
