@@ -118,10 +118,12 @@ module.exports = {
         'markdown-it': props(),
         'koa-static-cache': props(),
       },
-      project: {
+      modules: {
         libs: props({
-          desc: '使用typescript实现的公共逻辑仓库'
+          desc: '只运行在node环境的公共逻辑。通用逻辑和运行在前端的逻辑放在fe/modules/libs中'
         }),
+      },
+      project: {
         'node-server': props({
           desc: '一个简单的node服务，不依赖三方库，将会被koa-server代替'
         }),
@@ -153,7 +155,7 @@ module.exports = {
         start: props({
           desc: 'webpack基础展示，基于项目：https://github.com/ruanyf/webpack-demos'
         }),
-        'react-tsx-less': props({desc: '支持tsx, less, react的webpack最小化配置'}),
+        'react-tsx-less': props({ desc: '支持tsx, less, react的webpack最小化配置' }),
       },
       busybox: {
         busybox: props({
@@ -196,8 +198,8 @@ module.exports = {
         }),
       },
       modules: {
-        lib: props({
-          desc: 'node,fe公用逻辑，及只能在前端环境运行的逻辑'
+        libs: props({
+          desc: '能运行在node和前端环境的公用逻辑，及只能在前端环境运行的逻辑'
         }),
       },
       project: {
