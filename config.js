@@ -229,9 +229,9 @@ module.exports = {
         desc: '用来学习antd'
       }),
       modules: {
-        libs: {
+        libs: props({
           desc: 'react相关的公用逻辑'
-        },
+        }},
         components: props({
           desc: 'react通用组件，自用'
         }),
