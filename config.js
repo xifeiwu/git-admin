@@ -230,10 +230,11 @@ module.exports = {
       }),
       modules: {
         libs: props({
-          desc: 'react相关的公用逻辑'
+          desc: 'react相关的公用逻辑',
+          todo: '相关逻辑可以放到react/modules/components中，或许用不到，可以删除？'
         }},
         components: props({
-          desc: 'react通用组件，自用'
+          desc: 'react通用组件和逻辑，自用'
         }),
       }
     },
