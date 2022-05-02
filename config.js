@@ -123,7 +123,7 @@ module.exports = {
           desc: '只运行在node环境的公共逻辑。通用逻辑和运行在前端的逻辑放在fe/modules/libs中'
         }),
       },
-      project: {
+      projects: {
         'node-server': props({
           desc: '一个简单的node服务，不依赖三方库，将会被koa-server代替'
         }),
