@@ -353,6 +353,9 @@ module.exports = {
       'daas-frontend': props({
         desc: 'daas前端'
       }),
+      'daas-frontend-assist': props({
+        desc: 'daas前端开发辅助项目，如接口测试，功能测试。。。'
+      }),
       react: {
         'components': props({
           desc: 'conviva react通用组件'
