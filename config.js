@@ -359,6 +359,9 @@ module.exports = {
       'semantic-mapper-frontend': props({
         desc: 'Semantic Mapper前端'
       }),
+      'rule-engine-frontend': props({
+        desc: 'Rule Engine前端'
+      }),
       react: {
         'components': props({
           desc: 'conviva react通用组件'
