@@ -237,13 +237,13 @@ module.exports = {
         }),
       },
       vendor: {
-        rc-trigger: props({
+        'rc-trigger': props({
           desc: 'frok from git@github.com:react-component/trigger.git'
         }),
-        rc-select: props({
+        'rc-select': props({
           desc: 'frok from git@github.com:react-component/select.git'
         }),
-        rc-field-form: props({
+        'rc-field-form': props({
           desc: 'frok from git@github.com:react-component/field-form.git'
         }),
       },
