@@ -235,7 +235,18 @@ module.exports = {
         components: props({
           desc: 'react通用组件和逻辑，自用'
         }),
-      }
+      },
+      vendor: {
+        rc-trigger: props({
+          desc: 'frok from git@github.com:react-component/trigger.git'
+        }),
+        rc-select: props({
+          desc: 'frok from git@github.com:react-component/select.git'
+        }),
+        rc-field-form: props({
+          desc: 'frok from git@github.com:react-component/field-form.git'
+        }),
+      },
     },
     chrome: {
       'show-qrcode': props(),
