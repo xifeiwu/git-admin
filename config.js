@@ -246,6 +246,9 @@ module.exports = {
         'rc-field-form': props({
           desc: 'frok from git@github.com:react-component/field-form.git'
         }),
+        'rc-table': props({
+          desc: 'frok from git@github.com:react-component/table.git'
+        }),
       },
     },
     chrome: {
