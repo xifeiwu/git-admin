@@ -118,12 +118,12 @@ module.exports = {
         'markdown-it': props(),
         'koa-static-cache': props(),
       },
-      modules: {
+      module: {
         libs: props({
           desc: '只运行在node环境的公共逻辑。通用逻辑和运行在前端的逻辑放在fe/modules/libs中'
         }),
       },
-      projects: {
+      project: {
         'node-server': props({
           desc: '一个简单的node服务，不依赖三方库，将会被koa-server代替'
         }),
@@ -197,7 +197,7 @@ module.exports = {
           desc: '一些可以展示的页面'
         }),
       },
-      modules: {
+      module: {
         libs: props({
           desc: '能运行在node和前端环境的公用逻辑，及只能在前端环境运行的逻辑'
         }),
@@ -228,7 +228,7 @@ module.exports = {
       'antd-prime': props({
         desc: '用来学习antd'
       }),
-      modules: {
+      module: {
         libs: props({
           desc: ['react相关的公用逻辑','相关逻辑可以放到react/modules/components中，或许用不到，可以删除？']
         }),

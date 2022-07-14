@@ -28,10 +28,10 @@ node								// 一级目录，以node为例
 │   ├── formidable					// 实现解析http post请求
 │   ├── snabbdom					// vue做tree diff的代码逻辑
 │   └── ...							// 等
-├── modules							// 跨项目的公用逻辑
+├── module							// 跨项目的公用逻辑
 │   ├── libs						// 公用代码
 │   └── ...							// 等
-├── projects						// 自己开发的完成特定功能的项目
+├── project							// 自己开发的完成特定功能的项目
 │   ├── finsihed					// 已经稳定的项目
 │   │   ├── git-admin				// git仓库管理程序
 │   │   └── ...						// 等
