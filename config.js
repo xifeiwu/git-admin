@@ -52,7 +52,11 @@ module.exports = {
     bash: {
       summary: props(),
       'linux-distro-build': props(),
-      project: {},
+      project: {
+        'git-howto': props({
+          desc: 'show how git works, how it is used for project management'
+        })
+      },
       vendor: {
         'acme.sh': props({
           desc: '实现https签名的开源项目，并有代码添加',
