@@ -380,6 +380,9 @@ module.exports = {
       'rule-engine-frontend': props({
         desc: 'Rule Engine前端'
       }),
+      'conviva-ui': props({
+        desc: 'conviva ui'
+      }),
       react: {
         'components': props({
           desc: 'conviva react通用组件'
