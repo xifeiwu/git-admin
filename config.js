@@ -253,6 +253,9 @@ module.exports = {
         'rc-table': props({
           desc: 'frok from git@github.com:react-component/table.git'
         }),
+        'ahooks': props({
+          desc: 'frok from  git@github.com:alibaba/hooks.git'
+        }),
       },
     },
     chrome: {
