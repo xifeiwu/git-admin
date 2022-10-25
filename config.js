@@ -224,13 +224,13 @@ module.exports = {
     },
     react: {
       'react-abc': props({
-        desc: '通过create-react-app脚手架创建的一个react app demo'
+        desc: '一些用于展示各种特征的demo'
       }),
       'react-umi': props({
         desc: '基于umi脚手架的项目，作为react入门'
       }),
       'antd-prime': props({
-        desc: '用来学习antd'
+        desc: '用来学习antd依赖的各种react component'
       }),
       module: {
         libs: props({
@@ -257,6 +257,11 @@ module.exports = {
           desc: 'frok from  git@github.com:alibaba/hooks.git'
         }),
       },
+      other: {
+        'scaffolding-submodule': props({
+          desc: '使用create-react-app创建的，每个commit展示了相关的改动，引用了两个常用的submodule'
+        }),
+      }
     },
     chrome: {
       'show-qrcode': props(),
