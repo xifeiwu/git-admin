@@ -380,7 +380,7 @@ module.exports = {
         desc: 'daas前端'
       }),
       'daas-frontend-assist': props({
-        desc: 'daas前端开发辅助项目，如接口测试，功能测试。。。'
+        desc: 'daas前端开发辅助项目，如接口测试，功能测试。。。(将不会再用)'
       }),
       'semantic-mapper-frontend': props({
         desc: 'Semantic Mapper前端'
@@ -390,6 +390,9 @@ module.exports = {
       }),
       'conviva-ui': props({
         desc: 'conviva ui'
+      }),
+      'conviva-ui-assist': props({
+        desc: 'conviva-ui开发辅助项目'
       }),
       react: {
         'components': props({
