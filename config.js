@@ -233,9 +233,6 @@ module.exports = {
         desc: '用来学习antd依赖的各种react component'
       }),
       module: {
-        libs: props({
-          desc: ['react相关的公用逻辑','相关逻辑可以放到react/modules/components中，或许用不到，可以删除？']
-        }),
         components: props({
           desc: 'react通用组件和逻辑，自用'
         }),
@@ -394,16 +391,6 @@ module.exports = {
       'conviva-ui-assist': props({
         desc: 'conviva-ui开发辅助项目'
       }),
-      react: {
-        'components': props({
-          desc: 'conviva react通用组件'
-        }),
-      },
-      fe: {
-        libs: props({
-          desc: 'conviva fe通用逻辑'
-        }),
-      },
     }
   },
   get repoList() {
