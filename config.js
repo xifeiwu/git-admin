@@ -161,6 +161,11 @@ module.exports = {
         }),
         'react-tsx-less': props({ desc: '支持tsx, less, react的webpack最小化配置' }),
       },
+      jest: {
+        react: props({
+          desc: 'jest React项目配置入门'
+        }),
+      },
       busybox: {
         busybox: props({
           groups: {
