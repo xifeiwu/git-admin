@@ -161,11 +161,6 @@ module.exports = {
         }),
         'react-tsx-less': props({ desc: '支持tsx, less, react的webpack最小化配置' }),
       },
-      jest: {
-        react: props({
-          desc: 'jest React项目配置入门'
-        }),
-      },
       busybox: {
         busybox: props({
           groups: {
@@ -228,15 +223,20 @@ module.exports = {
       },
     },
     react: {
-      'react-abc': props({
-        desc: '一些用于展示各种特征的demo'
-      }),
-      'react-umi': props({
-        desc: '基于umi脚手架的项目，作为react入门'
-      }),
-      'antd-prime': props({
-        desc: '用来学习antd依赖的各种react component'
-      }),
+      start: {
+        'react-abc': props({
+          desc: '一些用于展示各种特征的demo'
+        }),
+        'react-umi': props({
+          desc: '基于umi脚手架的项目，作为react入门'
+        }),
+        'antd-prime': props({
+          desc: '用来学习antd依赖的各种react component'
+        }),
+        'create-react-app-startup': props({
+          desc: '使用create-react-app创建的，每个commit展示了相关的改动，引用了两个常用的submodule'
+        }),
+      },
       module: {
         components: props({
           desc: 'react通用组件和逻辑，自用'
@@ -259,11 +259,6 @@ module.exports = {
           desc: 'frok from  git@github.com:alibaba/hooks.git'
         }),
       },
-      other: {
-        'scaffolding-submodule': props({
-          desc: '使用create-react-app创建的，每个commit展示了相关的改动，引用了两个常用的submodule'
-        }),
-      }
     },
     chrome: {
       'show-qrcode': props(),
