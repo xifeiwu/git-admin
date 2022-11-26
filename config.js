@@ -149,6 +149,12 @@ module.exports = {
           'git-admin': props({
             desc: 'manage git repo by code written by node'
           }),
+          busybox: props({
+            desc: '使用js实现的常用逻辑工具箱，新功能会转向ts，改项目会渐渐停止维护',
+            groups: {
+              company: ['read']
+            }
+          }),
         }
       },
       webpack: {
@@ -156,13 +162,6 @@ module.exports = {
           desc: 'webpack基础展示，基于项目：https://github.com/ruanyf/webpack-demos'
         }),
         'react-tsx-less': props({ desc: '支持tsx, less, react的webpack最小化配置' }),
-      },
-      busybox: {
-        busybox: props({
-          groups: {
-            company: ['read']
-          }
-        }),
       },
       assets: props({
         desc: 'assets used for both node, vue and fe'
