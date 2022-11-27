@@ -145,7 +145,7 @@ module.exports = {
         'assist-server-paas': props({
           desc: 'paas前端的后台管理平台，包括帮助文档管理后台的前端页面几后端接口实现等'
         }),
-        finished: {
+        stable: {
           'git-admin': props({
             desc: 'manage git repo by code written by node'
           }),
