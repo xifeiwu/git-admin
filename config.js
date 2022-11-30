@@ -391,6 +391,9 @@ module.exports = {
       'conviva-ui-assist': props({
         desc: 'conviva-ui开发辅助项目'
       }),
+      hackathon2022: props({
+        desc: 'hackathon 2022'
+      }),
     }
   },
   get repoList() {
