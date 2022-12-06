@@ -254,6 +254,11 @@ module.exports = {
           desc: 'frok from  git@github.com:alibaba/hooks.git'
         }),
       },
+      project: {
+        'antd-prime': props({
+          desc: '用来学习antd依赖的各种react component'
+        }),
+      },
     },
     chrome: {
       'show-qrcode': props(),
