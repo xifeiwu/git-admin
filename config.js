@@ -236,6 +236,9 @@ module.exports = {
         components: props({
           desc: 'react通用组件和逻辑，自用'
         }),
+        'rc-stater': props({
+          desc: 'stater for react component, depends on module/components, fe/module/libs'
+        }),
       },
       vendor: {
         'rc-trigger': props({
