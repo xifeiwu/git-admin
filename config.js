@@ -402,6 +402,12 @@ module.exports = {
       hackathon2022: props({
         desc: 'hackathon 2022'
       }),
+      'Instant-Filter-Client': props({
+        desc: 'Instant-Filter-Client'
+      }),
+      'Instant-Filter-Server': props({
+        desc: 'Instant-Filter-Server'
+      }),
     }
   },
   get repoList() {
