@@ -408,6 +408,9 @@ module.exports = {
       'Instant-Filter-Server': props({
         desc: 'Instant-Filter-Server'
       }),
+      'instant-filter-assist': props({
+        desc: 'assit for instant-filter'
+      }),
     }
   },
   get repoList() {
