@@ -231,6 +231,9 @@ module.exports = {
         'antd-rc': props({
           desc: '用来学习antd依赖的各种react component'
         }),
+        'umi-hooks-demo-show': props({
+          desc: 'show demo code of [umi-hooks](https://github.com/alibaba/hooks.git)'
+        }),
       },
       module: {
         components: props({
