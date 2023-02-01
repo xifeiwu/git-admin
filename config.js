@@ -228,7 +228,7 @@ module.exports = {
         'create-react-app-startup': props({
           desc: '使用create-react-app创建的，每个commit展示了相关的改动，引用了两个常用的submodule'
         }),
-        'antd-prime': props({
+        'antd-rc': props({
           desc: '用来学习antd依赖的各种react component'
         }),
       },
