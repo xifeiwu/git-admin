@@ -225,11 +225,11 @@ module.exports = {
         'react-umi': props({
           desc: '基于umi脚手架的项目，作为react入门'
         }),
-        'antd-prime': props({
-          desc: '用来学习antd依赖的各种react component'
-        }),
         'create-react-app-startup': props({
           desc: '使用create-react-app创建的，每个commit展示了相关的改动，引用了两个常用的submodule'
+        }),
+        'antd-prime': props({
+          desc: '用来学习antd依赖的各种react component'
         }),
       },
       module: {
@@ -258,9 +258,6 @@ module.exports = {
         }),
       },
       project: {
-        'antd-prime': props({
-          desc: '用来学习antd依赖的各种react component'
-        }),
       },
     },
     chrome: {

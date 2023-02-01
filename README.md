@@ -19,28 +19,29 @@ config.js中配置git仓库的路径，及访问权限
 
 仓库路径规则：
 
-node								// 一级目录，以node为例
-├── start							// 入门及学习记录，总结
+node										// 一级目录，以node为例
+├── start									// 入门及学习的记录，总结
+│   ├── ts 						// 使用ts语法实现的demo
 │   ├── summary 					// 常用逻辑总结
-│   └── ...							// 等
-├── vendor							// 值得长期跟踪的优秀的三方代码
-│   ├── socksv5						// socksv5的node实现
-│   ├── formidable					// 实现解析http post请求
+│   └── ...						// 等
+├── vendor									// 值得长期跟踪的优秀的三方代码
+│   ├── socksv5					// socksv5的node实现
+│   ├── formidable				// 实现解析http post请求
 │   ├── snabbdom					// vue做tree diff的代码逻辑
-│   └── ...							// 等
-├── module							// 跨项目的公用逻辑
+│   └── ...						// 等
+├── module									// 跨项目的公用逻辑
 │   ├── libs						// 公用代码
-│   └── ...							// 等
-├── project							// 自己开发的完成特定功能的项目
-│   ├── finsihed					// 已经稳定的项目
+│   └── ...						// 等
+├── project									// 自己开发的完成特定功能的项目
+│   ├── stable					// 已经稳定的项目
 │   │   ├── git-admin				// git仓库管理程序
-│   │   └── ...						// 等
-│   ├── spa-server					// spa项目后端服务
-│   └── ...							// 等
-├── webpack							// 如果vendor项目比较多，可以将相关项目归类的一个文件夹（如，展示webpack功能的相关项目）
-│   ├── ruanyf						// 一个展示基本的webpack使用方式的项目
-│   └── ...							// 等
-└── ...								// 其它自定义文件夹
+│   │   └── ...					// 等
+│   ├── spa-server				// spa项目后端服务，但有些细节没有想通，没有达到stable的状态
+│   └── ...						// 等
+├── webpack									// 如果vendor项目比较多，可以将相关项目归类的一个文件夹（如，展示webpack功能的相关项目）
+│   ├── ruanyf					// 一个展示基本的webpack使用方式的项目
+│   └── ...						// 等
+└── ...										// 其它自定义文件夹
 
 **modules**
 可以跨项目公用的逻辑
