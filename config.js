@@ -222,6 +222,9 @@ module.exports = {
         'react-abc': props({
           desc: '一些用于展示各种特征的demo，will be replaced by repo feature'
         }),
+        'react-deep': props({
+          desc: '尝试了解react的内在逻辑'
+        }),
         'feature': props({
           desc: '展示react feature及常用vendor的使用'
         }),
