@@ -119,8 +119,8 @@ module.exports = {
         'koa-static-cache': props(),
       },
       module: {
-        libs: props({
-          desc: '只运行在node环境的公共逻辑。通用逻辑和运行在前端的逻辑放在fe/modules/libs中'
+        lib: props({
+          desc: '只运行在node环境的公共逻辑。通用逻辑和运行在前端的逻辑放在fe/module/lib中'
         }),
       },
       project: {
@@ -197,7 +197,7 @@ module.exports = {
         }),
       },
       module: {
-        libs: props({
+        lib: props({
           desc: '能运行在node和前端环境的公用逻辑，及只能在前端环境运行的逻辑'
         }),
       },
@@ -246,7 +246,7 @@ module.exports = {
           desc: 'react通用组件和逻辑，自用'
         }),
         'rc-stater': props({
-          desc: 'stater for react component, depends on module/components, fe/module/libs'
+          desc: 'stater for react component, depends on module/components, fe/module/lib'
         }),
       },
       vendor: {
