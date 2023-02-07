@@ -237,8 +237,8 @@ module.exports = {
         'create-react-app-startup': props({
           desc: '使用create-react-app创建的，每个commit展示了相关的改动，引用了两个常用的submodule'
         }),
-        'umi-hooks-demo-show': props({
-          desc: 'show demo code of [umi-hooks](https://github.com/alibaba/hooks.git)'
+        'ahooks-demo-show': props({
+          desc: 'show demo code of [ahooks](https://github.com/alibaba/hooks.git)'
         }),
       },
       module: {
