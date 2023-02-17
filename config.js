@@ -219,26 +219,26 @@ module.exports = {
     },
     react: {
       start: {
+        'feature': props({
+          desc: '展示react feature及常用vendor的使用'
+        }),
         'react-abc': props({
-          desc: '一些用于展示各种特征的demo，will be replaced by repo feature'
+          desc: '一些用于展示各种特征的demo，will be replaced by repo react-feature'
         }),
         'react-deep': props({
           desc: '尝试了解react的内在逻辑'
         }),
-        'feature': props({
-          desc: '展示react feature及常用vendor的使用'
-        }),
         'antd-rc': props({
           desc: '用来学习antd依赖的各种react component'
-        }),
-        'react-umi': props({
-          desc: '基于umi脚手架的项目，作为react入门'
         }),
         'create-react-app-startup': props({
           desc: '使用create-react-app创建的，每个commit展示了相关的改动，引用了两个常用的submodule'
         }),
         'ahooks-demo-show': props({
           desc: 'show demo code of [ahooks](https://github.com/alibaba/hooks.git)'
+        }),
+        'react-umi': props({
+          desc: '基于umi脚手架的项目，作为react入门'
         }),
       },
       module: {
