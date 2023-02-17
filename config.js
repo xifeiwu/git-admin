@@ -219,6 +219,9 @@ module.exports = {
     },
     react: {
       start: {
+        'micro-frontend': props({
+          desc: '微前端项目，集成了很多前端项目的入口'
+        }),
         'feature': props({
           desc: '展示react feature及常用vendor的使用'
         }),
