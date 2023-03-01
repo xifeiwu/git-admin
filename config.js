@@ -222,11 +222,8 @@ module.exports = {
         'micro-frontend': props({
           desc: '微前端项目，集成了很多前端项目的入口'
         }),
-        'react-feature': props({
-          desc: '展示react feature及常用vendor的使用'
-        }),
-        'react-abc': props({
-          desc: '一些用于展示各种特征的demo，will be replaced by repo react-feature'
+        'react-start': props({
+          desc: 'react相关的基础知识：feature of browser runtime；feature of react；commonly used vendor'
         }),
         'react-deep': props({
           desc: '尝试了解react的内在逻辑'
