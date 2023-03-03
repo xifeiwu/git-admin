@@ -190,7 +190,10 @@ module.exports = {
     fe: {
       start: {
         summary: props({
-          desc: '前端代码总结，纯静态实现。通过vue(react)架构实现的代码总结将会放到vue(react)/start中。node/start/summary的前端部分会逐步迁移到该项目'
+          desc: '前端代码总结，纯静态实现。will be replaced by browser-feature'
+        }),
+        'browser-feature': props({
+          desc: '展示browser的接口，demo code支持static, react',
         }),
         'show-case': props({
           desc: '一些可以展示的页面'
