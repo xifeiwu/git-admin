@@ -189,9 +189,6 @@ module.exports = {
     },
     fe: {
       start: {
-        summary: props({
-          desc: '前端代码总结，纯静态实现。will be replaced by browser-feature'
-        }),
         'browser-feature': props({
           desc: '展示browser的接口，demo code支持static, react',
         }),
@@ -215,7 +212,7 @@ module.exports = {
           desc: '哲对话项目，需要后端接口，可以使用assist-server提供的接口'
         }),
         'generate-iconfont': props({
-          desc: '生成字体'
+          desc: '将svg图片生成字体'
         }),
         'zhangxueli.site': props(),
       },
