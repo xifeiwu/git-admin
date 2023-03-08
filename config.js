@@ -222,6 +222,9 @@ module.exports = {
         'micro-frontend': props({
           desc: '微前端项目，集成了很多前端项目的入口'
         }),
+        'browser-feature': props({
+          desc: 'show browser feature in form of react project'
+        }),
         'react-start': props({
           desc: 'react相关的基础知识：feature of browser runtime；feature of react；commonly used vendor'
         }),
