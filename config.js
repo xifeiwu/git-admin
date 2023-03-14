@@ -396,9 +396,6 @@ module.exports = {
       'daas-frontend': props({
         desc: 'daas前端'
       }),
-      'daas-frontend-assist': props({
-        desc: 'daas前端开发辅助项目，如接口测试，功能测试。。。(将不会再用)'
-      }),
       'semantic-mapper-frontend': props({
         desc: 'Semantic Mapper前端'
       }),
@@ -422,6 +419,9 @@ module.exports = {
       }),
       'instant-filter-assist': props({
         desc: 'assit for instant-filter'
+      }),
+      'if-server-assist': props({
+        desc: 'used for assist of development of instant-filter-server'
       }),
     }
   },
