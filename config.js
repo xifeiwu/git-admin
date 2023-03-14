@@ -79,14 +79,17 @@ module.exports = {
     },
     node: {
       start: {
+        feature: props({
+          desc: 'ts语法，node代码总结。node/start/summary的node部分会逐步迁移到该项目'
+        }),
+        vendor: props({
+          desc: 'A collection of commonly used vendor projects and some common projects based on them in form of gitsubmodule'
+        }),
         summary: props({
           desc: 'node代码总结，内容将迁移到node/start/fe, node/start/ts中。TODO: delete'
         }),
         modules: props({
           desc: '展示常用node modules使用方式'
-        }),
-        ts: props({
-          desc: 'ts语法，node代码总结。node/start/summary的node部分会逐步迁移到该项目'
         }),
       },
       vendor: {
