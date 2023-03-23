@@ -130,6 +130,9 @@ module.exports = {
         'node-server': props({
           desc: '一个简单的node服务，不依赖三方库，将会被koa-server代替'
         }),
+        'basic-server': props({
+          desc: '提供常用的后端服务'
+        }),
         'spa-server': props({
           desc: '为spa项目提供静态服务、转发服务，并尽量使用和webpack.config.js中devServer相同的配置'
         }),
