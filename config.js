@@ -426,6 +426,9 @@ module.exports = {
       'if-server-assist': props({
         desc: 'used for assist of development of instant-filter-server'
       }),
+      'if-client-assist': props({
+        desc: 'used for assist of development of instant-filter-client'
+      }),
     }
   },
   get repoList() {
