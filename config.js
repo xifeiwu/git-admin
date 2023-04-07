@@ -414,21 +414,23 @@ module.exports = {
       hackathon2022: props({
         desc: 'hackathon 2022'
       }),
-      'Instant-Filter-Client': props({
-        desc: 'Instant-Filter-Client'
-      }),
-      'Instant-Filter-Server': props({
-        desc: 'Instant-Filter-Server'
-      }),
-      'node-based-assist': props({
-        desc: 'A backend service run on node, to provide basic server, proxy server, request from node, etc',
-      }),
-      'if-client-assist': props({
-        desc: 'assist for development of instant-filter-client, it will embeded in project if-client to show feature of components and some basic logic'
-      }),
-      'if-server-assist': props({
-        desc: 'assist for development of instant-filter-server, it will embeded in project of if-server for debugging or middle data show'
-      }),
+      'instant-filter': {
+        'Instant-Filter-Client': props({
+          desc: 'Instant-Filter-Client'
+        }),
+        'Instant-Filter-Server': props({
+          desc: 'Instant-Filter-Server'
+        }),
+        'node-based-assist': props({
+          desc: 'A backend service run on node, to provide basic server, proxy server, request from node, etc',
+        }),
+        'client-assist': props({
+          desc: 'assist for development of instant-filter-client, it will embeded in project if-client to show feature of components and some basic logic'
+        }),
+        'server-assist': props({
+          desc: 'assist for development of instant-filter-server, it will embeded in project of if-server for debugging or middle data show'
+        }),
+      }
     }
   },
   get repoList() {
