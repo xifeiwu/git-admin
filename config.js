@@ -415,10 +415,10 @@ module.exports = {
         desc: 'hackathon 2022'
       }),
       'instant-filter': {
-        'Instant-Filter-Client': props({
+        'client': props({
           desc: 'Instant-Filter-Client'
         }),
-        'Instant-Filter-Server': props({
+        'server': props({
           desc: 'Instant-Filter-Server'
         }),
         'node-based-assist': props({
