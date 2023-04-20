@@ -417,7 +417,7 @@ module.exports = {
       node: {
         common: props({
           desc: 'common logic for conviva node projects',
-        }},
+        }),
       },
       'instant-filter': {
         'client': props({
