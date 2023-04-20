@@ -414,6 +414,11 @@ module.exports = {
       hackathon2022: props({
         desc: 'hackathon 2022'
       }),
+      node: {
+        common: props({
+          desc: 'common logic for conviva node projects',
+        }},
+      },
       'instant-filter': {
         'client': props({
           desc: 'Instant-Filter-Client'
