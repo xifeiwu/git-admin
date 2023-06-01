@@ -419,6 +419,11 @@ module.exports = {
           desc: 'common logic for conviva node projects',
         }),
       },
+      fe: {
+        AppHub: props({
+          desc: 'AppHub based on qiankun'
+        }),
+      },
       'instant-filter': {
         'client': props({
           desc: 'Instant-Filter-Client'
