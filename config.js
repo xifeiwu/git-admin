@@ -193,6 +193,13 @@ module.exports = {
         }
       },
     },
+    electron: {
+      project: {
+        'electron-forge-react': props({
+          desc: 'electron-forge with webpack config support react, less'
+        }),
+      }
+    },
     fe: {
       start: {
         'browser-feature': props({
