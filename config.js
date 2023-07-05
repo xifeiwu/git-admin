@@ -125,6 +125,9 @@ module.exports = {
         lib: props({
           desc: '只运行在node环境的公共逻辑。通用逻辑和运行在前端的逻辑放在fe/module/lib中'
         }),
+        'db-on-sequelize': props({
+          desc: 'manage databases by sequelize',
+        }),
       },
       project: {
         'node-server': props({
