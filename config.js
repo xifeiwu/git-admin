@@ -125,6 +125,9 @@ module.exports = {
         lib: props({
           desc: '只运行在node环境的公共逻辑。通用逻辑和运行在前端的逻辑放在fe/module/lib中'
         }),
+        net: props({
+          desc: '封装了一些基于koa, axios, http-proxy, ws等常用模块的通用逻辑'
+        }),
       },
       db: {
         'db-wrapper': props({
@@ -136,7 +139,7 @@ module.exports = {
       },
       project: {
         'node-server': props({
-          desc: '一个简单的node服务，不依赖三方库，将会被koa-server代替'
+          desc: '一个简单的node服务，不依赖三方库，将会被basic-server代替'
         }),
         'basic-server': props({
           desc: '提供常用的后端服务'
