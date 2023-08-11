@@ -133,8 +133,8 @@ module.exports = {
         'db-wrapper': props({
           desc: 'wrapper project for db based on sequelize',
         }),
-        housekeeper: props({
-          desc: '信息管理',
+        assets: props({
+          desc: '电子文档',
         })
       },
       project: {
