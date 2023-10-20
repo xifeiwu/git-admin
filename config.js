@@ -50,7 +50,9 @@ module.exports = {
       desc: '一个非常小的git仓库，用于测试git指令'
     }),
     bash: {
-      summary: props(),
+      start: props({
+        desc: 'summarize bash grammar by demo code'
+      }),
       'linux-distro-build': props(),
       project: {},
       vendor: {
