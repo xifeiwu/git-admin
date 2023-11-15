@@ -337,7 +337,7 @@ module.exports = {
       SpringMVCDemo: props(),
     },
     python: {
-      summary: {
+      start: {
         prime: props(),
         vendor: props(),
       },
