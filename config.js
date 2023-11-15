@@ -298,8 +298,7 @@ module.exports = {
           desc: 'frok from  git@github.com:alibaba/hooks.git'
         }),
       },
-      project: {
-      },
+      project: {},
     },
     chrome: {
       'show-qrcode': props(),
@@ -341,11 +340,13 @@ module.exports = {
         prime: props(),
         vendor: props(),
       },
-      'schedule-task': props(),
-      'benew-bi-server': props(),
-      'benew-bi-analyze': props(),
-      'news-task': props(),
-      'flask-server': props(),
+      project: {
+        'schedule-task': props(),
+        'benew-bi-server': props(),
+        'benew-bi-analyze': props(),
+        'news-task': props(),
+        'flask-server': props(),
+      }
     },
     android: {
       HybridApp: props(),
