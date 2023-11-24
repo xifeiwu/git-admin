@@ -76,7 +76,14 @@ module.exports = {
         }),
       },
       blog_site: props(),
-      company: props(),
+      company: {
+        archive: props({
+          desc: 'archived materials of companies used to work for'
+        }),
+        conviva: props({
+          desc: 'conviva related materials',
+        }),
+      },
       'xifeiwu.github.io': props()
     },
     node: {
