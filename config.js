@@ -49,7 +49,7 @@ module.exports = {
     test: props({
       desc: '一个非常小的git仓库，用于测试git指令'
     }),
-    bash: {
+    shell: {
       start: props({
         desc: 'summarize bash grammar by demo code'
       }),
