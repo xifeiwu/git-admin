@@ -156,9 +156,6 @@ module.exports = {
         'spa-server': props({
           desc: '为spa项目提供静态服务、转发服务，并尽量使用和webpack.config.js中devServer相同的配置'
         }),
-        'proxy-server': props({
-          desc: '定制的代理服务，用于辅助完美邮箱前端vue项目开发，使用ts开发'
-        }),
         'eggjs-demo': props({
           desc: '高乐天创建的一个eggjs项目，可以参考typescript及模块分割部分，可以删除'
         }),
@@ -171,6 +168,9 @@ module.exports = {
         'assist-server-paas': props({
           desc: 'paas前端的后台管理平台，包括帮助文档管理后台的前端页面几后端接口实现等'
         }),
+        busybox: props({
+          desc: 'serveral frequently used utilities implemented by ts, exposed in format of command'
+        }),
         stable: {
           'git-admin': props({
             desc: 'manage git repo by code written by node'
@@ -181,7 +181,12 @@ module.exports = {
               company: ['read']
             }
           }),
-        }
+        },
+        obsolete: {
+          'proxy-server': props({
+            desc: '定制的代理服务，用于辅助完美邮箱前端vue项目开发，使用ts开发'
+          }),
+        },
       },
       webpack: {
         start: props({
