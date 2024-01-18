@@ -6,11 +6,12 @@
 # How to run this project
 
 **Create user git, place this project(and dir repositories for locating all repos) at the HOME path of user git.**
-**Write the following config to repositories/git-admin.git/hooks**
+**Write the following config to repositories/git-admin.git/hooks/post-receive**
 ```
 unset GIT_DIR
 cd /home/git/git-admin
-git pull origin master
+git fetch origin
+git reset --hard origin/master
 ```
 then after git-admin.git is refreshed by code push, the code under dir `/home/git/git-admin` can be refreshed either.
 
