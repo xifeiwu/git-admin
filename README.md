@@ -6,14 +6,15 @@
 # How to run this project
 
 **Create user git, place this project(and dir repositories for locating all repos) at the HOME path of user git.**
-**Write the following config to repositories/git-admin.git/hooks/post-receive**
+**Write the following config to repositories/git-admin.git/hooks/post-receivels**
 ```
 unset GIT_DIR
 cd /home/git/git-admin
 git fetch origin
 git reset --hard origin/master
 ```
-then after git-admin.git is refreshed by code push, the code under dir `/home/git/git-admin` can be refreshed either.
+
+The hooks will be triggered when code is pushed to git-admin.git, and make sure code under dir `/home/git/git-admin` have the latest update.
 
 **Add commond for customer by writing the following command to .ssh/authorized_keys**
 
@@ -51,6 +52,10 @@ node					// 一级目录，以node为例
 │ └── ...				// 等
 └── ...					// 其它自定义文件夹
 ```
+
+For each coding language, should start from the `feature`(include native module) of the language, accumulate more and more common logic that can be used across multiple projects under dir `module/`, use `vendor` to locate and learn some commonly used third part projects, then can start myself project under dir `projects/` for destinate use case.
+
+
 
 ### About acme
 
