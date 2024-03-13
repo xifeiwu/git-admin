@@ -141,12 +141,12 @@ module.exports = {
         }),
       },
       db: {
-        'db-wrapper': props({
-          desc: 'wrapper project for db based on sequelize',
+        feature: props({
+          desc: 'study db feature'
         }),
-        assets: props({
-          desc: '电子文档',
-        })
+        'assets-manager': props({
+          desc: 'manage personal assets',
+        }),
       },
       project: {
         'node-server': props({
