@@ -113,7 +113,6 @@ module.exports = {
         'shadowsocks-lite': props(),
         'forever-monitor': props(),
         ws: props(),
-        socksv5: props(),
         forge: props(),
         snabbdom: props(),
         vue: props(),
@@ -180,11 +179,6 @@ module.exports = {
             groups: {
               company: ['read']
             }
-          }),
-        },
-        obsolete: {
-          'proxy-server': props({
-            desc: '定制的代理服务，用于辅助完美邮箱前端vue项目开发，使用ts开发'
           }),
         },
       },
