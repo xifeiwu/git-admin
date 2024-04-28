@@ -426,18 +426,6 @@ module.exports = {
       },
     },
     conviva: {
-      'daas-frontend': props({
-        desc: 'daas前端'
-      }),
-      'semantic-mapper-frontend': props({
-        desc: 'Semantic Mapper前端'
-      }),
-      'rule-engine-frontend': props({
-        desc: 'Rule Engine前端'
-      }),
-      'conviva-ui': props({
-        desc: 'conviva ui'
-      }),
       'conviva-ui-assist': props({
         desc: 'conviva-ui开发辅助项目'
       }),
@@ -449,10 +437,13 @@ module.exports = {
           desc: 'common logic for conviva node projects',
         }),
       },
-      fe: {
+      pulse: {
         AppHub: props({
           desc: 'AppHub based on qiankun'
         }),
+      'pulse-metrics': props({
+        desc: 'pulse-metrics'
+      }),
       },
       'instant-filter': {
         'client': props({
