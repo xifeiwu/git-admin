@@ -258,10 +258,10 @@ module.exports = {
           desc: '微前端项目，集成了很多前端项目的入口'
         }),
         'browser-feature': props({
-          desc: 'show browser feature in form of react project'
+          desc: 'show browser feature in react project'
         }),
         'react-start': props({
-          desc: 'react相关的基础知识：feature of browser runtime；feature of react；commonly used vendor'
+          desc: 'react相关的基础知识：feature, deep, vendor'
         }),
         'react-deep': props({
           desc: '尝试了解react的内在逻辑'
@@ -304,7 +304,11 @@ module.exports = {
           desc: 'frok from  git@github.com:alibaba/hooks.git'
         }),
       },
-      project: {},
+      project: {
+        'mini-apps': props({
+          desc: '基于react的一些小app（大一些app放在独立的项目中）放到一起共享依赖模块和modules，方便管理'
+        }),
+      },
     },
     chrome: {
       'show-qrcode': props(),
