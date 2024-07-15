@@ -141,8 +141,8 @@ module.exports = {
         }),
       },
       db: {
-        feature: props({
-          desc: 'study db feature'
+        explore: props({
+          desc: 'explore feature of db'
         }),
         'assets-manager': props({
           desc: 'manage personal assets',
