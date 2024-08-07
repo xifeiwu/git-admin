@@ -139,6 +139,9 @@ module.exports = {
         net: props({
           desc: '封装了一些基于koa, axios, http-proxy, ws等常用模块的通用逻辑'
         }),
+        'sequelize-models': props({
+          desc: 'It is a lib to locate commonly used sequelize models'
+        }),
       },
       db: {
         explore: props({
