@@ -150,6 +150,9 @@ module.exports = {
         'assets-manager': props({
           desc: 'manage personal assets',
         }),
+        zMovie: props({
+          desc: 'data managment',
+        }),
       },
       project: {
         'node-server': props({
