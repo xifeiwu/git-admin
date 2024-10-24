@@ -447,23 +447,24 @@ module.exports = {
           desc: 'common logic for conviva node projects',
         }),
       },
-      pulse: {
-        AppHub: props({
-          desc: 'AppHub based on qiankun'
-        }),
+      portal: props({
+        desc: 'portal'
+      }),
+      AppHub: props({
+        desc: 'AppHub based on qiankun'
+      }),
       'pulse-metrics': props({
         desc: 'pulse-metrics'
       }),
-      },
+      'node-based-assist': props({
+        desc: 'A backend service run on node, to provide basic server, proxy server, request from node, etc',
+      }),
       'instant-filter': {
         'client': props({
           desc: 'Instant-Filter-Client'
         }),
         'server': props({
           desc: 'Instant-Filter-Server'
-        }),
-        'node-based-assist': props({
-          desc: 'A backend service run on node, to provide basic server, proxy server, request from node, etc',
         }),
         'client-assist': props({
           desc: 'assist for development of instant-filter-client, it will embeded in project if-client to show feature of components and some basic logic'
