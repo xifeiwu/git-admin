@@ -324,6 +324,7 @@ module.exports = {
       ydd: props({
         desc: '有道词典chrome插件，可用',
       }),
+      'request-insights': props({desc: '截取并展示网络请求的信息'}),
       'use-case': props(),
     },
     linux: {
