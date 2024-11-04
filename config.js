@@ -308,11 +308,14 @@ module.exports = {
         }),
       },
       project: {
+        'react-submodule-startup': props({
+          desc: 'react脚手架，包括了常用的配置和submodules'
+        }),
         'create-react-app-startup': props({
           desc: '使用create-react-app创建的，每个commit展示了相关的改动，引用了两个常用的submodule'
         }),
         'react-umi': props({
-          desc: '基于umi脚手架的项目，作为react入门'
+          desc: '基于umi脚手架的项目，作为react入门，不太使用'
         }),
         'mini-apps': props({
           desc: '基于react的一些小app（大一些app放在独立的项目中）放到一起共享依赖模块和modules，方便管理'
