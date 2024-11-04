@@ -275,6 +275,9 @@ module.exports = {
         'antd-rc': props({
           desc: '用来学习antd依赖的各种react component'
         }),
+        assist: props({
+          desc: 'front-end assist page work together with some backend to archive some useful features'
+        }),
         'ahooks-demo-show': props({
           desc: 'show demo code of [ahooks](https://github.com/alibaba/hooks.git)'
         }),
