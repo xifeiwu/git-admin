@@ -275,14 +275,8 @@ module.exports = {
         'antd-rc': props({
           desc: '用来学习antd依赖的各种react component'
         }),
-        'create-react-app-startup': props({
-          desc: '使用create-react-app创建的，每个commit展示了相关的改动，引用了两个常用的submodule'
-        }),
         'ahooks-demo-show': props({
           desc: 'show demo code of [ahooks](https://github.com/alibaba/hooks.git)'
-        }),
-        'react-umi': props({
-          desc: '基于umi脚手架的项目，作为react入门'
         }),
       },
       module: {
@@ -311,6 +305,12 @@ module.exports = {
         }),
       },
       project: {
+        'create-react-app-startup': props({
+          desc: '使用create-react-app创建的，每个commit展示了相关的改动，引用了两个常用的submodule'
+        }),
+        'react-umi': props({
+          desc: '基于umi脚手架的项目，作为react入门'
+        }),
         'mini-apps': props({
           desc: '基于react的一些小app（大一些app放在独立的项目中）放到一起共享依赖模块和modules，方便管理'
         }),
