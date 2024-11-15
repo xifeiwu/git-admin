@@ -105,32 +105,25 @@ module.exports = {
         }),
       },
       vendor: {
-        'node-http-proxy': props({
-          desc: 'http(s)请求转发，加入了一些逻辑，方便请求转发的配置'
+        'koa-router': props({
+          desc: '添加index.js，方便关联@types/koa-router'
         }),
         'cnpmjs.org': props(),
         'angry-bird': props(),
         'shadowsocks-lite': props(),
-        'forever-monitor': props(),
         ws: props(),
         forge: props(),
         snabbdom: props(),
-        vue: props(),
-        axios: props(),
         ssh2: props({
           desc: 'show the logic of ssh2'
         }),
         'tencentcloud-sdk-nodejs': props({
           desc: '腾讯云sdk接口，ref: https://github.com/tencentcloud/tencentcloud-sdk-nodejs',
         }),
-        'koa-md-parser': props(),
-        'nirvana-logger': props(),
-        formidable: props(),
         'dom-align': props(),
         'impress.js': props(),
         'aws4': props(),
         'markdown-it': props(),
-        'koa-static-cache': props(),
       },
       module: {
         lib: props({
