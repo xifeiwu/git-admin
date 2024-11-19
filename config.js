@@ -130,10 +130,10 @@ module.exports = {
           desc: '只运行在node环境的公共逻辑。通用逻辑和运行在前端的逻辑放在fe/module/lib中'
         }),
         net: props({
-          desc: '封装了一些基于koa, axios, http-proxy, ws等常用模块的通用逻辑'
+          desc: 'network related utitlitie based on frequently used modules, such as koa, koa-session, ws'
         }),
-        'sequelize-models': props({
-          desc: 'It is a lib to locate commonly used sequelize models'
+        db: props({
+          desc: 'db related utilities based on sequelize solution, include frequently used models, service'
         }),
       },
       db: {
@@ -323,7 +323,9 @@ module.exports = {
       ydd: props({
         desc: '有道词典chrome插件，可用',
       }),
-      'request-insights': props({desc: '截取并展示网络请求的信息'}),
+      'request-insights': props({
+        desc: '截取并展示网络请求的信息'
+      }),
       'use-case': props(),
     },
     linux: {
