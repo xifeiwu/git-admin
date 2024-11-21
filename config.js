@@ -127,13 +127,16 @@ module.exports = {
       },
       module: {
         lib: props({
-          desc: '只运行在node环境的公共逻辑。通用逻辑和运行在前端的逻辑放在fe/module/lib中'
+          desc: 'run on node native runtime, only depends on fe/module/lib'
         }),
         net: props({
           desc: 'network related utitlitie based on frequently used modules, such as koa, koa-session, ws'
         }),
         db: props({
           desc: 'db related utilities based on sequelize solution, include frequently used models, service'
+        }),
+        utils: props({
+          desc: 'logic that across different module, it depends on lib, net, db'
         }),
       },
       db: {
