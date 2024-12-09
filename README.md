@@ -1,6 +1,6 @@
 # What is this project
 
-1. A git server can be based on protocol of http or ssh.
+1. A git server that can run on protocol of http or ssh.
 2. Can config each repo with more info, such as permission, description...
 
 # How to run this project
@@ -22,35 +22,38 @@ command="/home/git/git-admin/bin/git-server-by-ssh.js sduwxf@qq.com ef296e1131fa
 
 # About config.js
 
-We can config repo in file `config.js`, repoes are organized in tree using following structure:
+We can config repo in file `config.js`, repoes tree are usually organized using follow structure:
 
 ```
-node					// 一级目录，以node为例
-├── start				// 入门及学习的记录，总结
-│ ├── ts 				// 使用ts语法实现的demo
-│ ├── summary 			// 常用逻辑总结
-│ └── ...				// 等
-├── vendor				// 值得长期跟踪的优秀的三方代码，或者定制化较多的三方代码
-│ ├── socksv5			// socksv5的node实现
-│ ├── formidable		// 实现解析http post请求
-│ ├── snabbdom			// vue做tree diff的代码逻辑
-│ └── ...				// 等
-├── module				// 跨项目的公用逻辑
-│ ├── libs				// 公用代码
-│ └── ...				// 等
-├── project				// 自己开发的完成特定功能的项目
-│ ├── stable			// 已经稳定的项目
-│ │   ├── git-admin		// git仓库管理程序
-│ │   └── ...			// 等
-│ ├── obsolete			// 过时或使用频率很低，可被随时删除的项目
-│ │   ├── proxy-server	// 辅助完美邮箱开发的node服务
-│ │   └── ...			// 等
-│ ├── spa-server		// spa项目后端服务，但有些细节没有想通，没有达到stable的状态
-│ └── ...				// 等
-├── webpack				// 如果vendor项目比较多，可以将相关项目归类的一个文件夹（如，展示webpack功能的相关项目）
-│ ├── ruanyf			// 一个展示基本的webpack使用方式的项目
-│ └── ...				// 等
-└── ...					// 其它自定义文件夹
+node					          // take node runtime as example
+├── start				        // start to learn feature node runtime and some commonlly used modules of node
+│ ├── feature 				  // explore feature of node runtime
+│ ├── vendor 			      // Can explore feature and logic of some frequently used third-party projects in ts debug mode
+│ └── ...				        // ...
+├── vendor				      // third-part projects can be downloaded to this dir(can also managed by start/vendor to run in ts debug mode)
+│ ├── socksv5			      // socksv5 run on node
+│ ├── formidable		    // parse http request payload to json(or buffer)
+│ ├── snabbdom			    // vue做tree diff的代码逻辑
+│ └── ...				        // ..
+├── module				      // common logic that can be used in almost every node project
+│ ├── libs				      // native code without dependency on any third-party modules
+│ ├── db				        // common db logic and models base on solution of sequelize
+│ ├── net				        // net-related logic based on koa, ws
+│ ├── utils				      // logics based on libs, db, net.
+│ └── ...				        // ...
+├── project				      // My project that implement some feature
+│ ├── assist-server		  // spa项目后端服务，但有些细节没有想通，没有达到stable的状态
+│ ├── proxy-server	    // 辅助完美邮箱开发的node服务
+│ ├── spa-server		    // spa项目后端服务，但有些细节没有想通，没有达到stable的状态
+│ └── ...				        // 等
+├── tool                // stable and useful project
+│ ├── busybox           // A wrapper of useful command
+│ ├── git-admin         // git repo manager
+│ └── ...
+├── webpack				      // 如果vendor项目比较多，可以将相关项目归类的一个文件夹（如，展示webpack功能的相关项目）
+│ ├── ruanyf			      // 一个展示基本的webpack使用方式的项目
+│ └── ...				        // 等
+└── ...					        // 其它自定义文件夹
 ```
 
 For each coding language, should start from the `feature`(include native module) of the language, accumulate more and more common logic that can be used across multiple projects under dir `module/`, use `vendor` to locate and learn some commonly used third part projects, then can start myself project under dir `projects/` for destinate use case.
