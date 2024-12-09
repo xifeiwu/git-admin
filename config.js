@@ -107,7 +107,6 @@ module.exports = {
         }),
         'cnpmjs.org': props(),
         'angry-bird': props(),
-        'shadowsocks-lite': props(),
         ws: props(),
         forge: props(),
         snabbdom: props(),
