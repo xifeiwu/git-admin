@@ -270,9 +270,6 @@ module.exports = {
         'antd-rc': props({
           desc: '用来学习antd依赖的各种react component'
         }),
-        assist: props({
-          desc: 'front-end assist page work together with some backend to archive some useful features'
-        }),
         'ahooks-demo-show': props({
           desc: 'show demo code of [ahooks](https://github.com/alibaba/hooks.git)'
         }),
@@ -314,6 +311,12 @@ module.exports = {
         }),
         'mini-apps': props({
           desc: '基于react的一些小app（大一些app放在独立的项目中）放到一起共享依赖模块和modules，方便管理'
+        }),
+        'app-scaffold': props({
+          desc: 'A scaffold for react-tsx-less project with basic dependencies, such as, react, react-router, antd, webpack builder, and modules component, lib'
+        }),
+        forum: props({
+          desc: 'forum project embeded in app-scaffold'
         }),
       },
     },
