@@ -100,9 +100,6 @@ module.exports = {
         modules: props({
           desc: '展示常用node modules使用方式'
         }),
-        busybox: props({
-          desc: 'serveral frequently used utilities implemented by ts, exposed in format of command'
-        }),
       },
       vendor: {
         'koa-router': props({
@@ -172,17 +169,20 @@ module.exports = {
         'assist-server-paas': props({
           desc: 'paas前端的后台管理平台，包括帮助文档管理后台的前端页面几后端接口实现等'
         }),
-        stable: {
-          'git-admin': props({
-            desc: 'manage git repo by code written by node'
-          }),
-          busybox: props({
-            desc: '使用js实现的常用逻辑工具箱，新功能会转向ts，改项目会渐渐停止维护',
-            groups: {
-              company: ['read']
-            }
-          }),
-        },
+        busybox: props({
+          desc: '使用js实现的常用逻辑工具箱，新功能会转向ts，改项目会渐渐停止维护',
+          groups: {
+            company: ['read']
+          }
+        }),
+      },
+      tool: {
+        busybox: props({
+          desc: 'serveral frequently used utilities implemented by ts, exposed in format of command'
+        }),
+        'git-admin': props({
+          desc: 'manage git repo by code written by node'
+        }),
       },
       webpack: {
         start: props({
