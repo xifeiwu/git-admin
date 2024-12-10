@@ -261,11 +261,20 @@ module.exports = {
         'browser-feature': props({
           desc: 'show browser feature in react project'
         }),
+        implementation: props({
+          desc: 'Explore how react is implemented, learn react from bottom to top'
+        }),
+        feature: props({
+          desc: 'Explore react feature, learn react from top to bottom'
+        }),
+        vendor: props({
+          desc: 'Explore commonly used third-party project'
+        }),
         'react-start': props({
-          desc: 'react相关的基础知识：feature, deep, vendor'
+          desc: 'react相关的基础知识：feature, deep, vendor, deprecated by app-scaffold + implementation + feature + vendor'
         }),
         'react-deep': props({
-          desc: '尝试了解react的内在逻辑'
+          desc: '尝试了解react的内在逻辑，deprecated by implementation'
         }),
         'antd-rc': props({
           desc: '用来学习antd依赖的各种react component'
@@ -308,9 +317,6 @@ module.exports = {
         }),
         'react-umi': props({
           desc: '基于umi脚手架的项目，作为react入门，不太使用'
-        }),
-        'mini-apps': props({
-          desc: '基于react的一些小app（大一些app放在独立的项目中）放到一起共享依赖模块和modules，方便管理'
         }),
         'app-scaffold': props({
           desc: 'A scaffold for react-tsx-less project with basic dependencies, such as, react, react-router, antd, webpack builder, and modules component, lib'
