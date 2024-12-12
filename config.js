@@ -236,6 +236,9 @@ module.exports = {
         lib: props({
           desc: '能运行在node和前端环境的公用逻辑，及只能在前端环境运行的逻辑'
         }),
+        type: props({
+          desc: 'some common types that used across fe and node projects',
+        }),
       },
       project: {
         website: props({
@@ -262,22 +265,19 @@ module.exports = {
           desc: 'show browser feature in react project'
         }),
         implementation: props({
-          desc: 'Explore how react is implemented, learn react from bottom to top'
+          desc: 'Explore how react is implemented'
         }),
         feature: props({
           desc: 'Explore react feature, learn react from top to bottom'
         }),
         vendor: props({
-          desc: 'Explore commonly used third-party project'
-        }),
-        'react-start': props({
-          desc: 'react相关的基础知识：feature, deep, vendor, deprecated by app-scaffold + implementation + feature + vendor'
+          desc: 'Explore commonly used third-party projects from aspect of usage(from top to bottom)'
         }),
         'react-deep': props({
           desc: '尝试了解react的内在逻辑，deprecated by implementation'
         }),
         'antd-rc': props({
-          desc: '用来学习antd依赖的各种react component'
+          desc: 'Explore commonly used third-party projects from aspect of code(from bottom to top), 用来学习antd依赖的各种react component'
         }),
         'ahooks-demo-show': props({
           desc: 'show demo code of [ahooks](https://github.com/alibaba/hooks.git)'
