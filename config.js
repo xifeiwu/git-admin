@@ -136,8 +136,8 @@ module.exports = {
         }),
       },
       db: {
-        explore: props({
-          desc: 'explore feature of db'
+        'explore-sequelize': props({
+          desc: 'explore feature of sequelize and db'
         }),
         'assets-manager': props({
           desc: 'manage personal assets',
@@ -319,7 +319,10 @@ module.exports = {
           desc: '基于umi脚手架的项目，作为react入门，不太使用'
         }),
         'app-scaffold': props({
-          desc: 'A scaffold for react-tsx-less project with basic dependencies, such as, react, react-router, antd, webpack builder, and modules component, lib'
+          desc: [
+            'A scaffold for react-tsx-less project with basic dependencies, such as, react, react-router, antd, webpack builder, and modules component, lib',
+            'Do not include project vendor as it will import lots of third-party modules, and will increase risk of unstable'
+          ]
         }),
         forum: props({
           desc: 'forum project embeded in app-scaffold'
