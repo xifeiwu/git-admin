@@ -488,6 +488,9 @@ module.exports = {
         'server-assist': props({
           desc: 'assist for development of instant-filter-server, it will embeded in project of if-server for debugging or middle data show'
         }),
+      },
+      'v-dash': {
+        'vision-dashboard': props({}),
       }
     }
   },
