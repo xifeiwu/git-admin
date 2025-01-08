@@ -258,9 +258,6 @@ module.exports = {
     },
     react: {
       start: {
-        'micro-frontend': props({
-          desc: '微前端项目，集成了很多前端项目的入口'
-        }),
         'browser-feature': props({
           desc: 'show browser feature in react project'
         }),
@@ -270,6 +267,12 @@ module.exports = {
         feature: props({
           desc: 'Explore react feature, learn react from top to bottom'
         }),
+        'app-cluster': props({
+          desc: [
+            'A scaffold for react-tsx-less project with basic dependencies, such as, react, react-router, antd, webpack builder, and modules component, lib',
+            'Do not include project vendor as it will import lots of third-party modules, and will increase risk of unstable'
+          ]
+        }),
         vendor: props({
           desc: 'Explore commonly used third-party projects from aspect of usage(from top to bottom)'
         }),
@@ -278,6 +281,9 @@ module.exports = {
         }),
         'antd-rc': props({
           desc: 'Explore commonly used third-party projects from aspect of code(from bottom to top), 用来学习antd依赖的各种react component'
+        }),
+        'micro-frontend': props({
+          desc: '微前端项目，集成了很多前端项目的入口'
         }),
         'ahooks-demo-show': props({
           desc: 'show demo code of [ahooks](https://github.com/alibaba/hooks.git)'
@@ -309,7 +315,7 @@ module.exports = {
         }),
       },
       project: {
-        'react-submodule-startup': props({
+        'app-scaffold': props({
           desc: 'react脚手架，包括了常用的配置和submodules'
         }),
         'create-react-app-startup': props({
@@ -317,12 +323,6 @@ module.exports = {
         }),
         'react-umi': props({
           desc: '基于umi脚手架的项目，作为react入门，不太使用'
-        }),
-        'app-scaffold': props({
-          desc: [
-            'A scaffold for react-tsx-less project with basic dependencies, such as, react, react-router, antd, webpack builder, and modules component, lib',
-            'Do not include project vendor as it will import lots of third-party modules, and will increase risk of unstable'
-          ]
         }),
         forum: props({
           desc: 'forum project embeded in app-scaffold'
