@@ -479,19 +479,22 @@ module.exports = {
         'client': props({
           desc: 'Instant-Filter-Client'
         }),
-        'server': props({
-          desc: 'Instant-Filter-Server'
-        }),
         'client-assist': props({
           desc: 'assist for development of instant-filter-client, it will embeded in project if-client to show feature of components and some basic logic'
         }),
-        'server-assist': props({
-          desc: 'assist for development of instant-filter-server, it will embeded in project of if-server for debugging or middle data show'
-        }),
       },
+      'if-server': props({
+        desc: 'Instant-Filter-Server'
+      }),
+      'if-server-assist': props({
+        desc: 'assist for development of instant-filter-server, it will embeded in project of if-server for debugging or middle data show'
+      }),
+      'filter-service-assist': props({
+        desc: 'assist project to explore filter-service'
+      }),
       'v-dash': {
         'vision-dashboard': props({}),
-      }
+      },
     }
   },
   get repoList() {
