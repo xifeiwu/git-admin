@@ -50,11 +50,22 @@ module.exports = {
       desc: '一个非常小的git仓库，用于测试git指令'
     }),
     shell: {
-      start: props({
-        desc: 'summarize bash grammar by demo code'
-      }),
-      'linux-distro-build': props(),
-      project: {},
+      start: {
+        feature: props({
+          desc: 'explore shell grammar'
+        }),
+        vendor: props({
+          desc: 'learn from mature vendor projects'
+        }),
+      },
+      project: {
+        'mint-distro-custom': props({
+          desc: 'explore distro custom by myself'
+        }),
+        'linux-distro-build': props({
+          desc: 'custom linxu distro from iscas team. In order to save space, it is squashed version',
+        }),
+      },
       vendor: {
         'acme.sh': props({
           desc: '实现https签名的开源项目，并有代码添加',
