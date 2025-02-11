@@ -58,18 +58,15 @@ module.exports = {
           desc: 'learn from mature vendor projects'
         }),
       },
-      project: {
-        'mint-distro-custom': props({
-          desc: 'explore distro custom by myself'
-        }),
-        'linux-distro-build': props({
-          desc: 'custom linxu distro from iscas team. In order to save space, it is squashed version',
-        }),
-      },
       vendor: {
         'acme.sh': props({
           desc: '实现https签名的开源项目，并有代码添加',
         })
+      },
+      project: {
+        'linux-distro-build': props({
+          desc: 'custom linxu distro from iscas team. In order to save space, it is squashed version',
+        }),
       },
     },
     huffie: {
@@ -103,7 +100,10 @@ module.exports = {
           desc: 'ts语法，node代码总结。node/start/summary的node部分会逐步迁移到该项目'
         }),
         vendor: props({
-          desc: 'A collection of commonly used vendor projects and some common projects based on them in form of gitsubmodule'
+          desc: 'Explore vendor on source code level'
+        }),
+        'vendor-api': props({
+          desc: 'explore vendor on api level'
         }),
         summary: props({
           desc: 'node代码总结，内容将迁移到node/start/fe, node/start/ts中。TODO: delete'
