@@ -469,10 +469,15 @@ module.exports = {
       hackathon2022: props({
         desc: 'hackathon 2022'
       }),
-      node: {
-        common: props({
-          desc: 'common logic for conviva node projects',
-        }),
+      module: {
+        node: {
+          common: props({
+            desc: 'common logic for conviva node projects'
+          }),
+          'portal-db': props({
+            desc: 'explore portal-db using node sequelize'
+          })
+        },
       },
       portal: props({
         desc: 'portal'
