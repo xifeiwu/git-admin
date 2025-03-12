@@ -491,14 +491,12 @@ module.exports = {
       'node-based-assist': props({
         desc: 'A backend service run on node, to provide basic server, proxy server, request from node, etc',
       }),
-      'instant-filter': {
-        'client': props({
-          desc: 'Instant-Filter-Client'
-        }),
-        'client-assist': props({
-          desc: 'assist for development of instant-filter-client, it will embeded in project if-client to show feature of components and some basic logic'
-        }),
-      },
+      'if-client': props({
+        desc: 'Instant-Filter-Client'
+      }),
+      'if-client-assist': props({
+        desc: 'assist for development of instant-filter-client, it will embeded in project if-client to show feature of components and some basic logic'
+      }),
       'if-server': props({
         desc: 'Instant-Filter-Server'
       }),
