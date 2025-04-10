@@ -506,6 +506,9 @@ module.exports = {
       'filter-service-assist': props({
         desc: 'assist project to explore filter-service'
       }),
+      'integration-notifier': props({
+        desc: 'integration-notifier'
+      }),
       'v-dash': {
         'vision-dashboard': props({}),
       },
