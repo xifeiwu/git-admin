@@ -153,7 +153,7 @@ module.exports = {
         'assets-manager': props({
           desc: 'manage personal assets',
         }),
-        zMovie: props({
+        video: props({
           desc: 'data managment',
         }),
       },
