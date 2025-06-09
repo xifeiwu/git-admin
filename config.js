@@ -150,11 +150,11 @@ module.exports = {
         'explore-sequelize': props({
           desc: 'explore feature of sequelize and db'
         }),
-        'assets-manager': props({
-          desc: 'manage personal assets',
+        'asset': props({
+          desc: 'manage asset',
         }),
         video: props({
-          desc: 'data managment',
+          desc: 'manage video',
         }),
       },
       project: {
