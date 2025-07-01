@@ -121,8 +121,8 @@ module.exports = {
         ws: props(),
         forge: props(),
         snabbdom: props(),
-        ssh2: props({
-          desc: 'show the logic of ssh2'
+        'dev-tunnels-ssh': props({
+          desc: 'git@github.com:microsoft/dev-tunnels-ssh.git'
         }),
         'tencentcloud-sdk-nodejs': props({
           desc: '腾讯云sdk接口，ref: https://github.com/tencentcloud/tencentcloud-sdk-nodejs',
