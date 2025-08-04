@@ -129,7 +129,6 @@ module.exports = {
         }),
         'dom-align': props(),
         'impress.js': props(),
-        'aws4': props(),
         'markdown-it': props(),
       },
       module: {
@@ -247,7 +246,7 @@ module.exports = {
         lib: props({
           desc: '能运行在node和前端环境的公用逻辑，及只能在前端环境运行的逻辑'
         }),
-        type: props({
+        types: props({
           desc: 'some common types that used across fe and node projects',
         }),
       },
