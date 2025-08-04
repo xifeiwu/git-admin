@@ -135,6 +135,9 @@ module.exports = {
         lib: props({
           desc: 'run on node native runtime, only depends on fe/module/lib'
         }),
+        types: props({
+          desc: 'some common types that used across different node projects can be defined here',
+        }),
         net: props({
           desc: 'network related utitlitie based on frequently used modules, such as koa, koa-session, ws'
         }),
@@ -247,7 +250,7 @@ module.exports = {
           desc: '能运行在node和前端环境的公用逻辑，及只能在前端环境运行的逻辑'
         }),
         types: props({
-          desc: 'some common types that used across fe and node projects',
+          desc: 'some common types that used on both client side and server side can be defined here',
         }),
       },
       project: {
