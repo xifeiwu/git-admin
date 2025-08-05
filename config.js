@@ -471,7 +471,7 @@ module.exports = {
       hackathon2022: props({
         desc: 'hackathon 2022'
       }),
-      'emp-client: props({
+      'emp-client': props({
         desc: 'emp client'
       }),
       module: {
