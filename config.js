@@ -253,6 +253,11 @@ module.exports = {
           desc: 'some common types that used on both client side and server side can be defined here',
         }),
       },
+      vendor: {
+        'prosemirror-explore': props({
+          desc: 'explore prosemirror implementation'
+        }),
+      },
       project: {
         website: props({
           desc: '个人主页node服务端，可以通过config文件灵活配置'
