@@ -112,6 +112,23 @@ module.exports = {
           desc: '展示常用node modules使用方式'
         }),
       },
+      module: {
+        lib: props({
+          desc: 'run on node native runtime, only depends on fe/module/lib'
+        }),
+        types: props({
+          desc: 'some common types that used across different node projects can be defined here',
+        }),
+        net: props({
+          desc: 'network related utitlitie based on frequently used modules, such as koa, koa-session, ws'
+        }),
+        db: props({
+          desc: 'db related utilities based on sequelize solution, include frequently used models, service'
+        }),
+        utils: props({
+          desc: 'logic that across different module, it depends on lib, net, db'
+        }),
+      },
       vendor: {
         'koa-router': props({
           desc: '添加index.js，方便关联@types/koa-router'
@@ -130,34 +147,6 @@ module.exports = {
         'dom-align': props(),
         'impress.js': props(),
         'markdown-it': props(),
-      },
-      module: {
-        lib: props({
-          desc: 'run on node native runtime, only depends on fe/module/lib'
-        }),
-        types: props({
-          desc: 'some common types that used across different node projects can be defined here',
-        }),
-        net: props({
-          desc: 'network related utitlitie based on frequently used modules, such as koa, koa-session, ws'
-        }),
-        db: props({
-          desc: 'db related utilities based on sequelize solution, include frequently used models, service'
-        }),
-        utils: props({
-          desc: 'logic that across different module, it depends on lib, net, db'
-        }),
-      },
-      db: {
-        'explore-sequelize': props({
-          desc: 'explore feature of sequelize and db'
-        }),
-        'asset': props({
-          desc: 'manage asset',
-        }),
-        video: props({
-          desc: 'manage video',
-        }),
       },
       project: {
         'node-server': props({
@@ -194,6 +183,17 @@ module.exports = {
         }),
         'git-admin': props({
           desc: 'manage git repo by code written by node'
+        }),
+      },
+      db: {
+        'explore-sequelize': props({
+          desc: 'explore feature of sequelize and db'
+        }),
+        'asset': props({
+          desc: 'manage asset',
+        }),
+        video: props({
+          desc: 'manage video',
         }),
       },
       webpack: {
