@@ -275,10 +275,8 @@ module.exports = {
       },
     },
     react: {
-      start: {
-        'browser-feature': props({
-          desc: 'show browser feature in react project'
-        }),
+      /** app project only contains logic implementation, not need to care about build and compile, as it's done by app-wrapper */
+      app: {
         'react-deep-dive': props({
           desc: 'Explore how react is implemented'
         }),
@@ -288,14 +286,19 @@ module.exports = {
         'react-feature': props({
           desc: 'Explore react feature, learn react from top to bottom'
         }),
-        'app-cluster': props({
-          desc: [
-            'A scaffold for react-tsx-less project with basic dependencies, such as, react, react-router, antd, webpack builder, and modules component, lib',
-            'Do not include project vendor as it will import lots of third-party modules, and will increase risk of unstable'
-          ]
-        }),
-        vendor: props({
+        'vendor-usage': props({
           desc: 'Explore commonly used third-party projects from aspect of usage(from top to bottom)'
+        }),
+        forum: props({
+          desc: 'forum project embeded in app-scaffold'
+        }),
+      },
+      start: {
+        'browser-feature': props({
+          desc: 'show browser feature in react project'
+        }),
+        'small-apps': props({
+          desc: 'a wrapper for small apps'
         }),
         'antd-rc': props({
           desc: 'Explore commonly used third-party projects from aspect of code(from bottom to top), 用来学习antd依赖的各种react component'
@@ -333,17 +336,17 @@ module.exports = {
         }),
       },
       project: {
-        'app-scaffold': props({
-          desc: 'react脚手架，包括了常用的配置和submodules'
+        'app-wrapper-common': props({
+          desc: [
+            'A scaffold for react-tsx-less project with basic dependencies, such as, react, react-router, antd, webpack builder, and modules component, lib',
+            'Do not include project vendor as it will import lots of third-party modules, and will increase risk of unstable'
+          ]
         }),
         'create-react-app-startup': props({
           desc: '使用create-react-app创建的，每个commit展示了相关的改动，引用了两个常用的submodule'
         }),
         'react-umi': props({
           desc: '基于umi脚手架的项目，作为react入门，不太使用'
-        }),
-        forum: props({
-          desc: 'forum project embeded in app-scaffold'
         }),
       },
     },
