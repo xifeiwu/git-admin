@@ -279,10 +279,13 @@ module.exports = {
         'browser-feature': props({
           desc: 'show browser feature in react project'
         }),
-        implementation: props({
+        'react-deep-dive': props({
           desc: 'Explore how react is implemented'
         }),
-        feature: props({
+        'react-deep': props({
+          desc: '尝试了解react的内在逻辑，TODO: combine its logic with eact-deep-dive'
+        }),
+        'react-feature': props({
           desc: 'Explore react feature, learn react from top to bottom'
         }),
         'app-cluster': props({
@@ -293,9 +296,6 @@ module.exports = {
         }),
         vendor: props({
           desc: 'Explore commonly used third-party projects from aspect of usage(from top to bottom)'
-        }),
-        'react-deep': props({
-          desc: '尝试了解react的内在逻辑，deprecated by implementation'
         }),
         'antd-rc': props({
           desc: 'Explore commonly used third-party projects from aspect of code(from bottom to top), 用来学习antd依赖的各种react component'
