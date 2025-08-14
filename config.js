@@ -297,7 +297,7 @@ module.exports = {
         'browser-feature': props({
           desc: 'show browser feature in react project'
         }),
-        'small-apps': props({
+        'small-apps-wrapper': props({
           desc: 'a wrapper for small apps'
         }),
         'antd-rc': props({
