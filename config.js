@@ -283,7 +283,7 @@ module.exports = {
         'react-deep': props({
           desc: '尝试了解react的内在逻辑，TODO: combine its logic with eact-deep-dive'
         }),
-        'react-start': props({
+        'react-feature': props({
           desc: 'Show the usage of react interface; show common use case of react'
         }),
         'vendor-usage': props({
