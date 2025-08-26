@@ -184,6 +184,8 @@ module.exports = {
         'git-admin': props({
           desc: 'manage git repo by code written by node'
         }),
+        'react-tsx-less': props({ desc: 'A global logic support building tsx/less/react projects using webpack' }),
+        'react-tsx-less-client': props({ desc: 'the client part of react-tsx-less' }),
       },
       db: {
         'explore-sequelize': props({
@@ -200,7 +202,6 @@ module.exports = {
         start: props({
           desc: 'webpack基础展示，基于项目：https://github.com/ruanyf/webpack-demos'
         }),
-        'react-tsx-less': props({ desc: '支持tsx, less, react的webpack最小化配置' }),
       },
       assets: props({
         desc: 'assets used for both node, vue and fe'
