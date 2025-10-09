@@ -298,9 +298,6 @@ module.exports = {
         }),
       },
       start: {
-        'browser-feature': props({
-          desc: 'show browser feature in react project; TODO: depreated by browser-runtime'
-        }),
         'small-apps-wrapper': props({
           desc: 'a wrapper for small apps'
         }),
