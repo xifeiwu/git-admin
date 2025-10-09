@@ -278,6 +278,9 @@ module.exports = {
     react: {
       /** app project only contains logic implementation, not need to care about build and compile, as it's done by app-wrapper */
       app: {
+        'browser-runtime': props({
+          desc: 'show features on browser runtime'
+        }),
         'react-deep-dive': props({
           desc: 'Explore how react is implemented'
         }),
@@ -296,7 +299,7 @@ module.exports = {
       },
       start: {
         'browser-feature': props({
-          desc: 'show browser feature in react project'
+          desc: 'show browser feature in react project; TODO: depreated by browser-runtime'
         }),
         'small-apps-wrapper': props({
           desc: 'a wrapper for small apps'
