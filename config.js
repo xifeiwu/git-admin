@@ -248,7 +248,10 @@ module.exports = {
       },
       module: {
         lib: props({
-          desc: '能运行在node和前端环境的公用逻辑，及只能在前端环境运行的逻辑'
+          desc: '能运行在node和前端环境的公用逻辑，及只能在前端环境运行的逻辑，TODO: rename to js'
+        }),
+        browser: props({
+          desc: 'include logic that only can run on browser'
         }),
         types: props({
           desc: 'some common types that used on both client side and server side can be defined here',
