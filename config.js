@@ -290,7 +290,7 @@ module.exports = {
           desc: 'Explore how react is implemented'
         }),
         'react-deep': props({
-          desc: '尝试了解react的内在逻辑，TODO: combine its logic with eact-deep-dive'
+          desc: '尝试了解react的内在逻辑，TODO: combine its logic with react-deep-dive'
         }),
         'react-feature': props({
           desc: 'Show the usage of react interface; show common use case of react'
@@ -300,6 +300,9 @@ module.exports = {
         }),
         forum: props({
           desc: 'forum project embeded in app-scaffold'
+        }),
+        auth: props({
+          desc: 'for auth, and explore features work together with server'
         }),
       },
       start: {
