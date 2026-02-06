@@ -537,6 +537,9 @@ module.exports = {
       gen6: props({
         desc: 'gen6',
       }),
+      'next-dpi-assist': props({
+        desc: 'assist development of project next-dpi'
+      }),
     }
   },
   get repoList() {
