@@ -197,9 +197,11 @@ module.exports = {
           desc: 'webpack基础展示，基于项目：https://github.com/ruanyf/webpack-demos'
         }),
       },
-      assets: props({
-        desc: 'assets used for both node, vue and fe'
-      }),
+      asset: {
+        'z-movie': props({
+          desc: 'z-movie asset management'
+        }),
+      },
       vue: {
         'vue_abc': props({
           desc: '学习vue'
