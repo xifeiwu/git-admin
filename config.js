@@ -233,6 +233,9 @@ module.exports = {
         'electron-forge-react': props({
           desc: 'electron-forge with webpack config support react, less'
         }),
+        'electron-apps-wrapper': props({
+          desc: 'support build electron app by combine different third-party fe and backend logic'
+        }),
         housekeeper: props({
           desc: 'presonal assets manager'
         }),
