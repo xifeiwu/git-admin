@@ -170,6 +170,9 @@ module.exports = {
         'assist-server-paas': props({
           desc: 'paas前端的后台管理平台，包括帮助文档管理后台的前端页面几后端接口实现等'
         }),
+        'z-movie': props({
+          desc: 'z-movie asset management'
+        }),
       },
       tool: {
         busybox: props({
@@ -194,20 +197,12 @@ module.exports = {
           desc: 'webpack基础展示，基于项目：https://github.com/ruanyf/webpack-demos'
         }),
       },
-      asset: {
-        'z-movie': props({
-          desc: 'z-movie asset management'
-        }),
-      },
       vue: {
         'vue_abc': props({
           desc: '学习vue'
         }),
         'robot': props({
           desc: '结构比较成熟，使用typescript，基于nuxt的一个项目，使用到了pont（好用但不好控）'
-        }),
-        'assets': props({
-          desc: 'vue项目使用的assets，TODO: delete, instead by node/assets'
         }),
         'vue-projects': props({
           desc: '多个vue项目，包括show-case, assist-fe等，放到同一个项目主要是为了共用仓库和webpack配置，减少冗余项目。'
