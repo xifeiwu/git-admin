@@ -149,6 +149,9 @@ module.exports = {
         'markdown-it': props(),
       },
       project: {
+        'pino-ts-no-dep': props({
+          desc: 'Claude Code参考pino，生成的使用ts实现的没有任何三方依赖的实现版本'
+        }),
         'node-server': props({
           desc: '一个简单的node服务，不依赖三方库，将会被basic-server代替'
         }),
