@@ -149,6 +149,7 @@ module.exports = {
         'markdown-it': props(),
       },
       project: {
+        'react-client-demo': props({ desc: 'a simple react demo project used for debuging basic usage and compiler tools' }),
         'pino-ts-no-dep': props({
           desc: 'Claude Code参考pino，生成的使用ts实现的没有任何三方依赖的实现版本'
         }),
@@ -184,8 +185,8 @@ module.exports = {
         'git-admin': props({
           desc: 'manage git repo by code written by node'
         }),
-        'react-tsx-less': props({ desc: 'A global logic support building tsx/less/react projects using webpack' }),
-        'react-tsx-less-client': props({ desc: 'the client part of react-tsx-less' }),
+        'webpack-react': props({ desc: 'A global logic support building tsx/less/react projects using webpack' }),
+        'vite-react': props({ desc: 'A centralized build tool based on Vite for React Projects' }),
       },
       db: {
         'explore-sequelize': props({
