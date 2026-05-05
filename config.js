@@ -187,7 +187,6 @@ module.exports = {
         }),
         'webpack-react': props({ desc: 'A global logic support building tsx/less/react projects using webpack' }),
         'vite-tool': props({ desc: ' a centralized CLI build tool for React + Vite project' }),
-        'vite-react': props({ desc: 'A centralized build tool based on Vite for React Projects' }),
       },
       db: {
         'explore-sequelize': props({
