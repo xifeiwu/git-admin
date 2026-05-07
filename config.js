@@ -253,11 +253,14 @@ module.exports = {
         lib: props({
           desc: '能运行在node和前端环境的公用逻辑，及只能在前端环境运行的逻辑，TODO: rename to js'
         }),
+        types: props({
+          desc: 'some common types that used on both client side and server side can be defined here',
+        }),
         browser: props({
           desc: 'include logic that only can run on browser'
         }),
-        types: props({
-          desc: 'some common types that used on both client side and server side can be defined here',
+        assets: props({
+          desc: 'static asset files'
         }),
       },
       vendor: {
