@@ -308,13 +308,19 @@ module.exports = {
         auth: props({
           desc: 'for auth, and explore features work together with server'
         }),
+        'antd-rc': props({
+          desc: 'explore code for react-components used in antd'
+        }),
       },
       start: {
         'small-apps-wrapper': props({
           desc: 'a wrapper for small apps'
         }),
-        'antd-rc': props({
+        'antd-rc-legacy': props({
           desc: 'Explore commonly used third-party projects from aspect of code(from bottom to top), 用来学习antd依赖的各种react component'
+        }),
+        'antd-rc': props({
+          desc: 'explore antd components based on new solution'
         }),
         'micro-frontend': props({
           desc: '微前端项目，集成了很多前端项目的入口'
